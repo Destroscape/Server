@@ -1,0 +1,33 @@
+package game.net.packets.clickobject.areas;
+
+import game.entity.player.Player;
+
+public class AvatarMaze {
+
+	public static int[][] MAZE_OBJECTS = {
+		{3254, 5451, 3250, 5448}, {3250, 5448, 3254, 5451}, {3241, 5445, 3233, 5445}, {3233, 5445, 3241, 5445},
+		{3259, 5446, 3265, 5491}
+	};
+
+	public static int[][] MAZE_OBJECTS2 = {
+		{28892, 3165, 3561, 3292, 5479}, {28892, 3165, 3618, 3291, 5538},
+		{28893, 3119, 3571, 3248, 5490}, {28893, 3107, 3639, 3234, 5559}
+	};
+
+	public static void handleObjects(final Player c, final int objectId, final int x, final int y, final int face) {
+		c.clickObjectType = 0;
+		c.turnPlayerTo(x, y);
+
+		for (int j = 0; j < MAZE_OBJECTS2.length; j++) {
+			if (objectId == MAZE_OBJECTS2[j][0]) {
+				if(c.objectX == MAZE_OBJECTS2[j][1] && c.objectY == MAZE_OBJECTS2[j][2]) {
+					if(c.underAttackBy < 0 || c.underAttackBy2 < 0) {
+						c.sendMessage("You cannot enter the rift whilst your under attack.");
+					} else {
+						c.getPA().movePlayer(MAZE_OBJECTS2[j][3], MAZE_OBJECTS2[j][4], 0);
+					}
+				}
+			}
+		}
+	}
+}

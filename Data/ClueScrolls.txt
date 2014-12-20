@@ -1,0 +1,21 @@
+clue = 2677	3091	3494	Dig inside the edgeville bank	untill you find the spot!	#nothing	#nothing
+clue = 2678	3087	3483	We are three guys who can exchange	your points for items!	#nothing	#nothing
+clue = 2679	3081	3512	Dig inside the edgeville	general store untill you find the spot!	#nothing	#nothing
+clue = 2680	3080	3516	This guy hold all of	the quests in Swe Prime!	#nothing	#nothing
+clue = 2681	3078	3485	Lunar wisdom	fills your mind.	#nothing	#nothing
+clue = 2682	3071	3515	Dig somewhere around	the house who is owned by	Oziach from dragon slayer quest.	#nothing
+clue = 2683	3094	3491	Use the Home teleport and	Walk 7 steps south, 2 steps west	6 steps south, 9 steps east 	then dig!
+clue = 2684	3107	3502	Dig around in the furnace room	east of edgeville bank	#nothing	#nothing
+
+clue = 2801	3410	3537	Give me a high'five	instead of killing me	i'm only level 8	#nothing
+clue = 2802	2884	9797	There used to be a ladder here	that would bring me up to taverlys surface	#nothing	#nothing
+clue = 2803	2886	9799	I need an agility level of	atleast 80 to crawl threw here	#nothing	I can see some blue creatures on the other side
+clue = 2804	2657	2639	I can cross this gangplank	to rescue an island	#nothing	#nothing
+clue = 2805	2450	5177	Dig around in	Tzhaar-Ket_Zuh's area	#nothing	#nothing
+
+clue = 2722	3377	3260	From here i can easily see	over the whole obsticle	arena.	#nothing
+clue = 2723	3050	3505	I think someone hid the reward	under this monastery cabbage plant	#nothing	#nothing
+clue = 2724	3009	3445	I should dig outside this cannon	which everyone says	was built by dwarfs.	#nothing
+clue = 2725	2510	4718	Dig around in the area	where you can be blessed by a god	of your choice.	#nothing
+clue = 2726	3569	3282	Dig around in the barrows	hills area until	you find the spot.	#nothing
+[ENDOFCSLIST]

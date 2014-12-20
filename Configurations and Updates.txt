@@ -1,0 +1,572 @@
+- Downloaded Source/Client (Divine something?)
+- Started debugging and looking for bugs threwout client/source
+- Started some client issues (Interface interfearing and such somehow)
+- Made an attempt on fixing firecape model issue (it was only going on half the back v-Pic below)
+. But instead it became white when i packed a newer firecape model (but this one is wearing as it should)
+- Messing around with different character models
+- Looked threw some content on the source and decided to keep some (as the pvp aspect, v-Pic below)
+- Removed Quick curses completely it was totally messed up (might be intergrated later on)
+- Fixed some special attack emotes as they were totally messed up and wrong in every way
+- Dumped NPC Emote ID's and corrected loads of NPC emotes (not tested all yet)
+- Started the Fishing Colony as one main "skilling spot" aswell as catherby
+- Added client commands ::x10on/::x10off for toggling x10 hits on and off
+- Moved home to edgeville as usual
+- Added a banker and a skilling supply shop at the Fishing Colony along with some thiev stalls
+- Added prayer/summoning restorers in edge and also prayer book alter switch
+- Finished the teleportation system spellbook wise
+- Created the skill master who originally was Bob and placed him at the Fishing Colony and made him a teleporter aswell to various skilling areas
+- Patched a dupe
+- Fixed choosing of dicebags
+- Emptied out some unused teleports for now
+- Fixed the Blow kiss emote with the belonging gfx
+- Revamped and fixed up some staff commands
+- Fixed Intermediate Mining location teleport
+- Fixed the rocks in the crafting guild
+- Some item pricing has been redone
+- Fixed Pernix Cowl somewhat as it should be, (client sided issue)
+- Corrected some armoury wears such as fullhelms, fullbodys etc..
+- Added Bronze Set (lg) to shop
+- Fixed Black Set (sk) to be opened
+- Removed Wilderness agility course till further notice due to object missing
+- Fixed skillcape and slayer shop
+- Fixed slayer points loading
+- More armour wielding fixes
+- Fixed Strength requirements for weapons
+- Fixed strykewyrms distance attack
+- Fixed back worldmap icon
+- Fixed up jailing system
+- Completed Easter ring and ring of stone
+- Added special bar for some weapons that we're missing it
+- Added an achievement system for people to complete
+- Packed the old lunar interface without miasmic, don't want them
+- Zipped cache with new sprites
+__________________ SERVER ONLINE ___________________________ NOVEMBER 24th 2013 ______
+24/11-13:
+The animation when runecrafting by altars is fixed properly
+The teleport to the blood altar has been fixed
+Dragon attack/block/death emotes has been fixed
+Added a miniquest The Strykewyrm, required to slay Strykewyrms
+Glory now also teleports to karamja
+The Pocketeer achievement now grants 60K Thieving xp when finished
+Skilling experiences has been increased slightly
+Zamorak boss has been fixed properly
+
+25/11-13:
+A chamber guardian has been added to the mage arena to keep count on Mage points
+Ring and Necklace mould has been added to the skilling shop for jewelry making
+Slayer points now show as they should in the statistics menu
+Finished voting system by GTL
+Crystal key chest is now placed outside edgeville bank
+All bird's nests are fully functional giving items
+Membership system is now fully functional which constists of 31 Days
+Random npc spawns has been removed
+Added a timer for clicking mining ores
+Added a timer for clicking woodcutting trees
+Finished the new teleportation system which is handled by the sailor in edgeville
+Added the Cave Of Mutations
+
+26/11-13:
+The spellbook teleports has been removed
+Membership options has been added
+Added global announcement when someone reaches level 99 in a skill
+Chaos Dungeon added
+Over 15 Npc's added to the slayer task lists
+Membership can now be purchased
+Member only area has been started on
+
+27/11-13:
+Fixed some doors in lunar isle
+Fixed the magebook loading on login
+Fixed Godwars dungeon teleport location
+Fixed Frost dragons teleport location
+
+28/11-13:
+Finished Lunar Diplomacy quest - http://gyazo.com/8ec5903e04cd7bf27ad7b2abe5f7d327.gif
+http://gyazo.com/eac219d7749e559d3312c938161f074c
+Added lunar altar north of edgeville bank
+Added bowstrings to the skill master's shop
+Moved shops to the general shop of edgeville to keep cluster out
+Fixed up some item prices
+Added some more global doors
+Added 8 new achievements
+Godwars bosses only requires 20 KC now instead of 30
+
+29/11-13:
+An issue regarding dfs on npc gfx has been fixed
+An sql error has been fixed
+ObjectID showing for members is now removed
+New client update, achievement interface has been reworked and
+you can now click each achievement to see your progress!
+The PKing teleport 'The Gates' now brings you outside the gates above KBD lair
+Starter money reduced from 5M To 2M
+Single and double doors should now work as usual even when changing regions
+Alot of price adjustments
+Shop supplys have been limited down
+
+30/11-13:
+Mith Grapple has been added to wydins weapon shop
+You can no longer save teleports in godwars boss chambers
+Your remaining membership days now shows on login screen
+Regular users now gets 2 saved teleport slots, and members 5
+Fixed the update command timer to work at normal speed
+Membership users now have theyre very own slayer dungeon
+New way to create an onyx amulet:
+- Use your cut onyx on a amulet mould with 1 gold bar in your inventory.
+Increased fishing XP slightly
+Creating a onyx amulet now requires 90 Crafting
+Adjusted alot of droprates
+Global objects loading should be working better now
+By using a whip vine on a regular whip you will now get a Vine Whip
+Fixed up Kree'arras size due to graphic bugs
+Added the correct attack,block and death emote to Kree'arra
+Fixed up Flambeeds size due to graphic bug
+Added the correct attack,block and death emote to Flambeed
+Added correct attack,block and death emotes to many other npcs
+Added magic attacks to some mages in the chaos tunnels
+Client updated to V1.1
+Fixed a combat bug
+
+2/12-13:
+Rewrote the membership system and it should now calculate properly.
+Added some more user icons (donator, server informator, veteran etc!)
+A message has been added when claiming barrows reward with less inventory space then needed that the items are put in the bank.
+Fixed up the 525 gameframe some more
+Fixed up the equipment tab to an older version
+
+3/12-13:
+Adjusted fishing spot sizes (were 4x4 click region)
+Fixed user icons that showed wrong icon when toggling private chat to show in chatbox.
+You can now click the summoning tab again (when having a familiar spawned)
+Patched another dupe before anyone got a hold of it
+Completely rewritten the crystal chest loot within 3 categories
+Common
+Un-common 
+Rare
+Client now updated to V2.1 (Reload webclient/download latest client to avoid ingame issues)
+
+4/12-13:
+Membership system has been edited some more
+Regular users can now fish and cook rocktails at level 99 fishing and cooking
+Added correct map dots for friends, clanchat members and team capes
+More rewards added to the crystal chest
+Added a cooking range to the skilling area
+Fixed up private messaging not showing/sending some messages
+Client now updated to V2.2 (Reload webclient/download latest client to avoid ingame issues)
+
+5/12-13:
+A few items added to the donator shop
+Npcs do no longer drop unnoted items in such huge packs that they crash the client
+Finished private messaging bug (sorry for the wait)
+Ringmaster set now wields correctly
+Increased fishing XP slightly
+Increased cooking XP slightly
+Finished the 3 different member symbols
+Fixed the rocktails fishing in skilling area
+Added bank booth at members area
+
+7/12-13:
+Santa's Costume Set added to donator shop
+Removed cyclops from slayer tasks
+Cave bugs in the Chaos Tunnels are now attackable
+Added 2 new membership ranks to the shop
+Donator points is now introduced (with the new ranks)
+Bandos boss now has a higher max hit and had the respawn time decreased
+
+8/12-13:
+Wilderness agility course has been added (instead of rocks, use the ladder to fulfill the course)
+Nex now drops noted green d'hide instead of unnoted
+Dungeoneering beta released
+Fixed dungeoneering npc's
+Dungeoneering interface should no longer interfear with the logout tab
+Prayer should now be recharged after finished wave
+Skillcape shop moved to edgeville
+Completionist rack moved to edgeville
+Mysterious shades in dungeoneering should have theyr correct animations
+Donator Points added to the statistics menu
+The bank booth in members area now works properly
+
+9/12-13:
+Dungeoneering updates:
+Floor 1 Complexity 3 is now fixed and can be finishes
+When leaving a floor manually the logout interface should not be changed
+When teleporting away from the dungeoneering lobby the logout interface should not be changed
+Mysterious shades should no longer flip out when attacking (forgot an ID)
+Bound mauls has theyr attack emote fixed
+
+Skilling updates:
+Creating extremes works now (simple methods for now)
+To smelt mithril, adamant and rune bars you now only need 1 Coal
+
+Misc updates:
+Warhammers are now wielding in the weapon slot instead of shield spot
+The door to the cooking range in catherby now works
+The door to the chemist in draynow now works
+Big bones was removed from the supply shop
+Grenwall spikes has been added to the supply shop
+The stock of mithril, adamant and rune bars has been limited down
+D'hides in the skilling shop has been replaced by noted ones
+Mime gloves added to Zambo's outfit shop
+Added a Prestige Point shop to edgeville
+Added a Vote Point shop to edgeville
+Battleaxes has theyr attack emote fixed
+When creating overloads you now receive 1 instead of 2
+
+10/12-13:
+Bandos respawn time has been decreased from 4 minutes to 1,5minutes
+Fixed vine whips bonuses
+The last option from sailor does no longer open up dice menu
+Third-age druidic is no longer able to be sold to the shop
+Finished the Desert Treasure quest
+
+11/12-13:
+Dungeoneering floor 3 has been released to beta
+Fixed the completion interface for Desert Treasure
+Fixed magic book not showing for new members
+Removed iron and mythic crossbows from the range shop
+Limited down the stock of items in the range shop
+Added drops to the Dagon'Hai monks
+Webclient now built into the forums
+Store now built into the forums
+(:: store) command added which brings up the donation store
+
+12/12-13:
+Christmas sale on the web store
+
+13/12-13:
+Newcomer tutorial was added for the basics
+
+17/12-13:
+Killing streak now ends when you die
+The skilling tasks system has now been added to flynn who is located at the skilling area
+
+18/12-13:
+New member area (island)
+Placed out misc objects threwout the island:
+- Magic book switching altars
+- Prayer altar
+- Spec restore altar
+- Summoning restore
+- x3 Magic trees
+- x4 Rune ores
+- x2 Bank booths
+- Furnace
+- Anvil
+- Cooking range
+- Donator Chest
+Fixed up Donator chest which takes chest chances that can be bought or is included in some purchases!
+Filled donator chest with looads of items, some great ones and some less great ones.
+Vanguard set was added to the web store
+Permanent member ranks was added to the web store
+X2 Points was added to the web store (This is a Limited deal!)
+Chest chances was added when purchasing a member rank
+Silly jester tights now wields properly as legs and not a weapon (silly yeah..)
+Santa's costume set (limited deal item)'s price was lowered slightly
+X2 Points (limited deal item) price was lowered slightly
+Chest Attempts can now be purchased separately
+::donor command added for donators
+
+19/12-13:
+Fixed up dungeoneering floor 2 complexity 3
+Lowe now sells magic shortbows again
+Christmas event has been released!
+Client updated to Version 2.4 - Christmas edition!
+The experience when making extremes has been buffed
+
+27/12-13:
+Black tiles fixed (client issue)
+Rings creation has been fixed up and should work properly
+The - Help - part in quest tab was renamed to - Config - 2 new options below:
+Redirects (Opens a tab with fast redirects)
+Carried Wealth (Shouts your current Carried Wealth)
+The experience when making extremes has been buffed
+Most single doors removed (All over the world)
+Vote point shop exchange fixed up
+Some npc/objects renamed to become cleaner
+Client updated to Version 2.5 - Make sure to update!
+Members can now buff Godwars killcount +20 (Once per half hour)
+Flynn (Skill task manager) Now has a shop for skill points
+The sailor is now the 'traveler' and has also been given a Quick travel Option to skip the first dialogue
+The vote handling guy was given 2 new options 1- View Rewards 2- Open Vote Page for quick accessing
+You can now create onyx amulets threw the interface
+The furnace EAST of edgeville bank now works as the Jewelry Making 'Station'-
+- Simply click the furnace to open the interface
+When attacking a NPC without the correct slayer level, it will now tell which level you need.
+
+03/01-14:
+Finished update server (Faster cache files download, (Now only checks and downloads the updated files))
+Removal off all doors reworked, now only removing some, including the one for the furnace building in edgeville
+Fishing XP for Mantas and Rocktails has been increased
+The christmas event is now canceled for 2013! (Abit overdue)
+Christmas Webshop Item Deals are now canceled! (Also abit overdue)
+
+08/01-14:
+New achievement - XP Master
+New achievement - Effigy Locator
+New achievement - Effigy Inspector
+New achievement - THE Slayer
+New achievement - Nex's Destroyer
+The summoning area has been moved to a new location
+Dice bags are now removed from the web shop and added into Wydins store at a limited price
+Zeke was replaced by the Magic store owner
+The weapons in Wydins weapon shop is now located on the bottom in Grum's Stock 1
+Wydin now holds Miscellanious items instead of weapons
+Mithril seeds has been added to Wydins Miscellanious shop
+ 
+12/01-14:
+Scimitars of most sorts was moved to grum's store Stock 2
+A new tab was created 'Total info' which includes total ingame playtime and total NPC kills
+
+13/01-14:
+Melee XP rate has been DOUBLED from 750xp per hit to 1500xp per hit
+The melee walk delay in combat should now be removed completely
+Abyssal demons now drops whip more reguarly
+All godwars bosses and minions droprates has been buffed up alot
+The auto cache updater was disabled for now to speed up the cache download speed
+Mandrith now holds PK Supply's and buys all of your statuettes
+Mandrith has been placed by the wilderness ditch
+The snow on the ground has melted and will hopefully be back next year!
+
+14/01-14:
+Updated Highscores system - should no longer cause random disconnections
+Added beginners tutorial to newly created accounts
+Finished runecrafting pouches
+The PK Supply shop should no longer take tokkul's instead of coins
+
+15/01-14:
+Soulsplit now heals a 4th of your damage made instead of constant 2's
+Dharok set boost has been nerfed down abit due to OP hits
+
+23/01-14:
+Finished Chaos elemental boss
+Dharok's set boost has been buffed up again seeming it was nerfed abit too much
+You can now name your saved teleports by using the following:
+Example: ::tele1 edgevile (Will name your first saved teleport to Edgeville)
+This works for all 5 teleports simply change ::tele1 to ::tele2, ::tele3, ::tele4 or ::tele5
+The Salve Amulet has been added to the donator webshop, this amulet keeps your prayer points from draining at all times!
+
+
+4/02-14:
+Chest chances was removed from the web store
+Monthly membership has been removed (Those who still have days left will still have it untill it runs out)
+Permanent Membership prices and rewards has been adjusted accordingly
+* Member: 10$
+* Super Member: 50$
+* Extreme Member: 100$
+Some new sets of perks for each invidual member rank is being worked on
+Scroll of imbuedment was removed from the web store
+Added Try Your Luck boxes to the web store accordingly:
+* Try Your Luck Box [EASY] - Grants item(s) ranging from normal to rare (At a low rate)
+* Try Your Luck Box [MEDIUM] - Grants item(s) ranging from normal to rare (At a higher rate)
+* Try Your Luck Box [ELITE] - Grants item(s) ranging from normal to rare (At the highest rate)
+You can now choose your own experience rate at start with 3 different stages
+* Novice 5000xp
+* Expert 500xp
+* Legend 50xp
+Your XP title will now be shown on the overall highscores page
+
+6/02-14:
+Novice and Expert modes can no longer use dragonkin lamps (Opinions?)
+All XP Modes should now receive the same amount of xp in the dungeoneering floors
+All XP Modes should now receive the same amount of xp in the slayer tasks
+Novice mode now gets 10 Slayer points upon finished task
+Expert mode now gets 15 Slayer points upon finished task
+Legend mode now gets 30 Slayer points upon finished task
+Client updated to V3.3 (Make sure to refresh webclient or download latest desktop client)
+Title Manager has found hes way to edgeville and can provide you to unlock and change titles!
+* Titles: [Nov. PK], [Exp. PK], [Leg. PK] added to be unlocked (Requires 500Player Kills)
+* Titles: [Nov. PVM], [Exp. PVM], [Leg. PVM] added to be unlocked (Requires 1500 NPC Kills)
+The Title Manager's dialogue should now be closing correctly when unlocking or changing title
+
+8/02-14:
+Receiving starter after completing beginners tutorial should now work properly
+2 New more explaining dialogues has been added for selecting game mode and receiving starter
+Novice and Expert modes can now use dragonkin lamps again which grants 500K XP while it grants 1M XP for Legend modes
+Everyone can now spend dragonkin lamp xp on dungeoneering
+Corrected web store item prices
+Thieving now gives you coins again
+Nex drop rate has been buffed and it should now be somewhat easier to obtain the nex gears
+Dungeoneering XP rate has been increased for all game modes
+When voting, your rewards will now go into your bank
+You can now change your XP Mode by talking to the Skill Resetter in edgeville (Note: Changing the XP Mode will reset ALL of your stats)
+
+9/02-14:
+Ghostly has been added to the magic supply shop
+King arthur in edgeville general store now holds the Achievement Shop
+New achievement: Alchemizer - High alch 1000 times
+New achievement: Lumberjack - Cut 500 of various logs
+New achievement: Birdie - Find 50 Birdsnests
+Tome of frost now acts as infinite water runes
+
+10/02-14:
+The dragon claw special attack has been buffed up
+Legend Mode users now have a slight increased on droprates
+When having a familiar with B.O.B ability spawned (Right click summoning orb and click Open B.O.B to use it!)
+Dungeoneering XP has been buffed once again, should be about x10 from what it was (For legend mode, about x7 for Expert and Novice)
+The 4 new achievements from last update should now be visible on the achievement interface
+
+11/02-14:
+Onyx bolts are now able to be used with a crossbow
+Soulsplit now works when ranging and maging aswell
+Yew trees has been added to members only area
+Adamant rocks has been added to members only area
+Ancient staff has been added to the Magic supply shop
+You now have to finish Desert treasure quest to be able to wield the ancient staff
+
+12/02-14:
+The payout of dungeoneering XP and Points has been adjusted properly
+
+14/02-14:
+Charms are now tradeable
+Firecape has now been made untradeable
+You can now view your total donations in the total info tab (Will not view old donations)
+
+15/02-14:
+The dungeoneering points payout for novice and expert should now be fully corrected
+Enchanted gem added to the slayer point shop for 350 Points it allows you to:
+* Check on the amount you have left on your slayer task
+* Teleport to your slayer task monster
+You can now create a Full slayer helmet from a regular slayer helmet using a hexcrest and focus sight on it
+Slayer helmet point price has been lowered to 500
+Staff of light point price has been lowered to 550
+The clue scroll base has been finished, now i can start on them
+4 new slayer tasks has been added which is:
+* Ghosts
+* Chaos druids
+* Giant bats
+* Dagannoths (small ones)
+Telekinetic grab now only requires 1 air and 1 law rune as it should
+The completionist cape now works the same way as ava's accumulator
+I should now be able to add/edit clue scrolls without a server restart
+Floor 2 Complexity 3 in dungeoneering should now work properly
+You can now reset your skilltask for 1 skillpoint
+
+16/02-14:
+6 Clues has been added 5 easy and 1 medium
+The client cache has been uploaded to another host to ensure faster download speed
+Chaotic maul and obby maul now has a different attack interface
+A teleportation bug has been patched
+Dungeoneering npcs no longer drops effigys and clue scrolls
+3 Rocktail fishing spots has been added to members only area
+Bronze dragons should now hit
+Movario (At members only area) now holds two shops, donator point shop and Donator only shop
+Members can now light colored fires
+Colored logs can no longer be traded, sold or dropped
+The slayer masters dialogues has been reworked
+Regular players can now reset their slayer task for 20 slayer points
+The prayer altars in godwars dungeon should now work with a 10 minute timer
+Clue scrolls no longer drops as frequently
+Ava's accumulator and completionist capes savings of arrows and bolts has been lowered
+Client updated to V3.4 (Make sure to refresh webclient/download latest desktop client!)
+
+Client updates:
+You can now add/ignore when right clicking on a players username (Chatbox and such)
+The loyalty exchangers name was changed to Prestige exchanger
+
+17/02-14:
+The timer when generating clue scroll rewards has been lowered
+12 more clue scrolls has been added
+* 3 Easy
+* 4 Medium
+* 5 Hard
+
+19/02-14:
+Jadinko males now drops noted willow logs
+The spec switch glitch should now be fixed
+Cyclops at godwars dungeon are now attackable
+
+24/02-14:
+The webstore has been given an overhaul and touchup
+For every 1$ you spend you get 1 point to spend in member shop
+A massive bug where donators could use higher ranked commands has been patched
+3 Account were deleted from this bug
+Being 'frozen' when teleporting should be working better now, it's only a temporary fix
+Dungeoneering floor 4 is now complete with all 4 complexities
+The prayer altar in dung floor 4 now works
+
+25/02-14:
+X2 vote and donation rewards activated threwout this week!
+
+2/03-14:
+Dungeoneering master cape now has a emote
+Prestige point payout has been edited for each xp mode
+More security logs has been added to easier find out whats been going on
+An issue where curse leeching prayers would crash the server is fixed
+You can now name your teleports with spaces using the "_" symbol (underscore)
+Titans scrolls should now be given upon creation
+Boss tasks added with 9 different bosses to aquire as a task
+The XP gained when completing a slayer task has been increased slightly
+The slayer point payout per XP mode has been increased by 5 points
+Obsidian and chaotic maul should now have the correct attack options
+Every players XP Mode will now show up when typing ::players
+X2 Vote and donations reward payout has now ended!
+
+3/03-14:
+An issue where KBD tasks would give you hellhounds is fixed
+The username when requesting a trade now has the first letter uppercased
+Regular players XP mode now shows up on ::players aswell
+Tzhaar creatures droprates has been made more frequent
+Nex 'rare' droprates has been adjusted
+Ganodermic npcs dropdrates has been adjusted
+Chaos elemental can now be acquired as a boss slayer task
+Nex can now be acquired as a boss slayer task
+Deposit beast of burden inventory button in bank should now work
+You now only gain 2 crystal keys per vote again
+You now only need 1 coal to make mithril, adamant and rune bars when using superheat item spell
+High and low alch gfx has been centered
+You now have to set a bank PIN when entering your bank for the first time
+Temp fix for 'hair threw helmets' proper one will be applied when i get to the issue
+Chaos elemental's respawn time has been decreased
+
+5/03-14:
+Making a bank PIN is no longer a must
+Theres now a sefety dialogue when dismissing a familiar to accept
+_________________________________________________________________________________________
+
+Achievements:
+AchievementManager.increase(c, Achievements.);
+import game.content.achievement.*;
+
+_________________________________________________________________________________________
+
+Needs to be done:
+Add to skilling shop: 5509, 5510, 5512, 5514 (Set prices according to pouch)
+
+__________________________________________________________________________________________
+
+TODO:
+Change names of shop npc's (To know which npc holds which shop)
+
+
+Cave of mutation - 2759, 10064
+Member area - 2645, 4917 2
+Experiment dungeon - 3557, 9946
+Members slayer dungeon: 3288, 4293
+
+Santa 9400
+Thief 7955
+
+Emote 7071 funny shit
+
+- Desert treasure
+1913 - Kamil
+1914 - Dessous - Mage 350
+1977 - Fareed
+1974 - Damis
+1975 - Damis2
+
+- Shadow cave- 2741, 5083
+
+= SKILLING TASKS
+
+skillTask, skillAmount, ia, tid - WC
+skillTask1, skillAmount1, ia1, tid1 - Mining
+skillTask2, skillAmount2, ia2, tid2 - Fishing
+
+Skilling Point Shop Items:
+13667, 13668, 13669, 13670 (Clown set)
+15069, 15071 (Voting hats)
+20949, 20950, 20951, 20952 (Colored Robin Hood Hats)
+12595, 21390, 21391 (Avalani's set)
+21508, 21510 (Necromancer set, No hood)
+19038 - Wintumber tree
+

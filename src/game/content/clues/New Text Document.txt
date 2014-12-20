@@ -1,0 +1,115 @@
+package com.ad.nauseam.game.content.cluescrolls;
+
+import game.entity.player.Player;
+import game.content.clues.CluescrollDefinition;
+import game.content.clues.Cluescrolls;
+import engine.misc.Misc;
+
+public class CluescrollRewards {
+	
+	static int RareValue = 50; //Value that stands for chance on a Rare as reward. (1/50 = 2%)
+	static int[][] COMMON = {{559, 100}, {560, 120}}; //Common clue rewards {ItemID, Amount}
+	static int[][] RARE = {{1050, 1}}; //Rare clue rewards {ItemID, Amount}
+	
+	public static boolean COMMONreward(final Player c) {
+		int random = (int) Math.floor(Math.random() * COMMON.length);
+		ShowReward(c, COMMON[random][0], COMMON[random][1]);
+		c.sendMessage("Congratulations, you've found: "+COMMON[random][1]+" "+c.getItems().getItemName(COMMON[random][0]));
+		return c.getItems().addItem(COMMON[random][0], COMMON[random][1]);
+	}
+	
+	public static boolean RAREreward(final Player c) {		
+		int random = (int) Math.floor(Math.random() * RARE.length);
+		ShowReward(c, RARE[random][0], RARE[random][1]);
+		c.sendMessage("Congratulations, you've found: "+RARE[random][1]+" "+c.getItems().getItemName(RARE[random][0]));
+		return c.getItems().addItem(RARE[random][0], RARE[random][1]);
+	}
+	
+	public static void GiveReward(final Player c) {
+		if(Misc.random(RareValue) == 1) {
+			RAREreward(c);
+		} else {
+			COMMONreward(c);
+		}
+	}
+	
+	public static boolean CheckCoords(int ItemID, final Player c) {
+		return (CluescrollDefinition.cs[ItemID].GetCoordX() == c.absX &&
+				CluescrollDefinition.cs[ItemID].GetCoordY() == c.absY);
+	}
+	
+	public static void ShowHint(int ItemID, final Player c) {
+		c.getPA().showInterface(6965);
+		
+		for(int i = 0; i < 4; i++) {
+			String hint = "";
+			
+			if(i == 0) {
+				hint = CluescrollDefinition.cs[ItemID].GetDes1();
+			} else if(i == 1) {
+				hint = CluescrollDefinition.cs[ItemID].GetDes2();
+			} else if(i == 2) {
+				hint = CluescrollDefinition.cs[ItemID].GetDes3();
+			} else if(i == 3) {
+				hint = CluescrollDefinition.cs[ItemID].GetDes4();
+			}
+			
+			if(!hint.equals("#nothing")) {
+				c.getPA().sendFrame126(hint, 6968+i);
+			} else {
+				c.getPA().sendFrame126("", 6968+i);			
+			}
+			
+		}
+		
+		for (int j = 6972; j < 6976; j++) {			
+			c.getPA().sendFrame126("", j);			
+		}
+	}
+	
+	public static void ShowReward(Player c, int ItemID, int ItemAmount) {
+		c.getPA().showInterface(6960);
+		c.getOutStream().createFrameVarSizeWord(53);
+		c.getOutStream().writeWord(6963);
+		c.getOutStream().writeWord(1);
+		c.getOutStream().writeByte(ItemAmount);
+		c.getOutStream().writeWordBigEndianA(ItemID + 1);
+		c.getOutStream().endFrameVarSizeWord();   
+		c.flushOutStream();
+	}
+	
+	public static void FinalCheck(Player c) {
+		int ClueID;
+		
+		if(c.getItems().freeSlots() == 0) {
+			c.sendMessage("You need atleast 1 free slot on your inventory.");
+			return;
+		}
+		
+		for(int i = 0; i < Cluescrolls.ItemIDS.size(); i++) {
+			ClueID = Cluescrolls.ItemIDS.get(i);
+			if(c.getItems().playerHasItem(ClueID)) {
+
+				if(CheckCoords(ClueID, c)) {
+					GiveReward(c);
+					c.getItems().deleteItem(ClueID, 1);
+				}
+				
+			}
+		}
+		
+	}
+	
+	public static boolean isClue(int Itemid) {
+		for(int i = 0; i < Cluescrolls.ItemIDS.size(); i++) {
+			int ClueID = Cluescrolls.ItemIDS.get(i);
+			
+			if(Itemid == ClueID) {
+				return true;
+			}
+		}
+		return false;
+	}
+	
+
+}

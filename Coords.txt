@@ -1,0 +1,637 @@
+Jatizso Mine 2406 10190
+Waterbirth First floor 2448 10147
+Penguin HQ 2658 10386
+Miscellenia Dungeon 2512 10256
+Eagle Cave (snow) 2718 10221
+Olafs Quest Dungeon 2691 10125
+Troll Path Snow 2788 10198
+Cave to  Zemouregal castle (directly west of Trollweiss Mountain) 2810 10264
+Tale of Muspah buriel cave w/ jellies 2826 10316
+Temple at Senntisten dungeon 1 2903 10415
+Temple at Senntisten dungeon 2 2948 10350
+Wilderness Agility pitfall 3004 10353
+Wilderness Firegiant dungeon 3042 10343
+KBD lever 3168 10257
+Wilderness Black Dragon Dungeon 3021 10250
+
+Tzhaar
+Tzhaar Fightpits 2398 5151
+Tzhaar Fightcaves 2412 5107
+Tzhaar Bank 2447 5178
+
+Keldagrim Cave 2838 10125
+-North mines 2870 10250
+-South mines 3040 10243
+-bank 2837 10208
+
+Trollhiem Cages 2934 10080
+trollheim goutweed maze thing 2860 10081
+Mountain daughter dungeon/The Kendal 2787 10077
+Death Plateau Saba's Cave 2893 10086
+*Small cave w/ crates 2933 10085
+Fremink Slayer Cave 2795 9988
+Small Troll Cave 2921 10024
+Ice Queen Cave 2865 9951
+Heros' Guild Dungeon 2894 9907
+Dwarf WhiteWolf shortcut 2869 9878
+Living Rock Caverns 3636 5099
+
+Taverly Dungeon 2884 9798
+Recipe For Disaster Goblin Village Kitchen 2980 9910
+Recipe For Disaster Goblin Village exploded 2979 9868
+
+Camdozaal (Sacred Forge) Under Ice mountain 3038 9889
+Elite Black Knight Cave(goup) 3060 9947
+Evil Daves Dungeon 3079 9886
+Edgeville Dungeon Enterance 3096 9873
+Edgeville Dungeon Hill Giants 3111 9836
+Edgeville Dungeon Wilderness Druids 3115 9930 
+Varrock Dungeon Moss Giants 3159 9903
+Varrock Sewers 3239 9866
+Varrock West Bank Basement 3191 9826
+Champions Challenge/Champions Guild Basement 3167 9767
+Draynor Manor Basement (ernest chicken w/ levers) 3112 9754
+Count Draynors Coffin 3080 9777
+Dwarven Mines Dragon Slayer Chest 3055 9840
+Dwarven Mines Mining Guild 3042 9743
+Dwarven Mines Pickaxe Shop 2997 9845
+Stealing Creation??? 2969 9703
+Falador Artisans Workshop Dungeon 3060 9709
+Draynor Sewers 3110 9686
+Port Sarim Rat Pits 2987 9637
+Asgarnia Ice Dungeon Ice Warriors/Giants 3050 9581 
+Asgarnia Ice Dungeon Skeletal Wyverns 3050 9549
+Melzars Maze 2936 9651
+Crandor Dungeon Elvarg 2853 9637
+Karamja Volcano Lesser Demons 2837 9560
+
+Brimhaven Agility Dungeon 2805 9590
+Brimhaven Dungeon Steel/Iron dragons 2722 9443
+Brimhaven Dungeon Start 2703 9566
+Brimhaven Dungeon Red Dragons 2703 9514
+
+Karamja Jogre Cave (Jungle Potion) 2838 9520
+
+Ogre City Greater Demon Pit 2617 9424
+Ogre City Blue Dragons 2574 9448
+
+Mages Guild Basement 2591 9488
+
+Yanille Agility Dungeon - End 2614 9521
+Yanille Agility Dungeon Start 2570 9526
+Yanille Agility Dungoen Chest 2564 9507
+Yanille Agility Dungeon Poison Spider Pit Trap 2578 9578
+Yanille Agility Dungeon stairs & rubble before end 2616 9568
+
+Tree Gnome Village Dungeon 2531 9556
+Ogre/Zogre  Slash Bash cave 2448 9428
+
+Castle Wars Zamorak Waiting Area 2421 9522
+Castle Wars Saradomin Waiting Area 2379 9490 
+Caslte Wars Dungeon 2401 9506
+
+Feldip Hills Cave (I think ,no map data part of quest)(no ! on map) 2520 9322
+Feldip Hills Cave (same as above, could be Rantz cave) 2647 9392
+
+Mobolising Armies Basement 2393 9245
+Observatory Dungeon (no map data but 99% sure) 2356 9391
+
+Underground Pass Exit to Elven Area 2316 9625
+Underground Pass Pitfall 2355 9644
+Underground Pass Pitfall 2355 9656
+Underground Pass Pitfall 2337 9656
+Underground Pass Pitfall 2314 9656
+Underground Pass Pitfall 2395 9559
+
+Underground Pass Fail 2480 9606
+Underground Pass Start 2493 9716
+Underground Pass Grid 2473 9679
+Underground Pass Fail 2459 9644
+Underground Pass before killing unicorn 2397 9605
+Underground Pass After killing unicorn 2373 9606
+Underground Pass Giant Spider 2358 9911
+Underground Pass Dwarf Camp 2313 9807
+Underground Pass Tomb 2355 9801
+
+Gnome Stronghold South-West House Dungeon 2388 9821
+Gnome Stronghold Grand Tree Black Demon fight 2483 9865
+Gnome Stronghold Hanger (Monkey Maddness) 2390 9895
+
+
+Lighthouse Dungeon 2521 10018
+Piscatoris Summoning Obelisk 2333 10013
+
+Relleka Dungeon Thorvald the Warrior 2658 10086
+Relleka Dungeon Swensen the Navigator Maze 2641 10027
+Temple of Ikov 2660 Enterance 9808
+Temple of Ikov Boots of Lightness room 2641 9763
+Temple of Ikov Boots of Lightness dark 2642 9740
+Temple of Ikov Armadyl Room 2643 9907
+
+Ardougne East to West Sewers (Plague City) 2517 9754
+Ardougne Dungeon 2697 9689
+Ardougne Dungeon Perfect Gold Ore 2734 9689
+Chaos Druid Tower Dungeon 2573 9750
+
+Roving Elves Moss Giant Dungeon Glarial's tomb 2542 9818
+Waterfall Flooded dungeon 2538 9913
+Waterfall dungeon Fire Giants 2578 9894
+Waterfall dungeon end 2604 9911
+
+Goblin Dungeon North of Ardogune 2587 9833
+Elemental Workshop 2724 9892
+Legends' Guild Dungeon 2701 9775
+
+Karamja Carin Isle Dungeon 2763 9375
+Karamja Legends Guild Dungeon 2778 9338
+Karamja Gem Rock Dungeon 2840 9388
+Karamja Shilo Village quest Dungeon 2890 9292
+Karamja Shilo Village quest Dungoen 2891 9387
+Karamja Shilo Village quest noth Bone key dungeon -end fight 2893 9487
+Karamja Jadinko lair dungeon 3037 9237
+Recipe for Disaster underwater area 2976 9492
+
+Desert Enakhra's Lament Granite Dungeon 3103 9312
+Desert Treasure Pyramid 3235 9316
+Desert Contact Quest Dungeon 3232 9250
+Desert Contact Dungeon 3283 9242
+Desert Sophanem Pyramid 3307 9198
+Desert Obelisk 3296 9313
+Desert Genie Area by Nardah 3373 9305
+Desert Desert Treasure Smoke Mage 3315 9378
+Desert Smokey Slayer dungeon 3353 9394
+`Desert Smokey Slayer dungeon 3353 9394
+Desert Smokey Slayer Dungeon basement (quest part?)3106 4367
+Desert Smokey Slayer dungeon main part 3303 4354
+Desert Kalphite Queen Dungeon 3499 9492
+Desert Kalphite back enterance (lower level) 3553 9503
+Desert Spirits of the Elid river top   3363 9551
+Desert Eagle Cave 3426 9570
+
+
+Mos Le Harmless bar basement 3666 9394
+Mos Le Harmless Cave horror dungeon start 3740 9375
+Mos Le Harmless Cave horror dungeon exit to tree island 3814 9465 
+
+Harmony underwater Dungeon (pretty sure, don't have mapdata) 3796 9254
+
+Mage Training Arena 3365 9644
+
+Shades of Morton Dungeon 3496 9674
+Barrows Dungeon 3552 9696
+Canafis Dungeon 3479 9841
+Mort Myre/Canafis Dungeon outside blood altar 3700 9685
+Mort Myre Canafis Dungeon Mutated bloodvelds 
+
+Ectofuntus 3687 9888
+Aid of Myre quest series base 3628 9642
+Skullball & agility 3548 9865
+
+Mausoleum Dungeon 3503 9970
+Columbarium 3423 9949
+Priest in Peril quest 3421 9887
+Zaros Altar 3503 10069
+Port Phatsmaty Bar underground 2680 9958
+
+Resource Dungeon -Chaos Druid/Edgeville (10) - 991 4585
+Resource Dungeon -Dwarven Mine w/ bank(15) - 1041 4575
+Resource Dungeon - Hill Giants/Edgeville (20) - 1134 4590
+Resource Dungeon - Lesser Demons/Karamja (25) - 1186 4598
+Resource Dungeon - Fire Giants/Waterfall(35) - 1256 4592
+Resource Dungeon -Magic trees/Varrock Sewers (65) - 1313 4590
+Resource Dungeon -Hellhounds/Taverly(55) - 1394 4588
+Resource Dungeon  Runite Rocks/Mining Guild(45)- 1052 4521
+Resource Dungeon Blue D ragons/Taverly Dungeon(60) - 1000 4522
+Resource Dungeon Black Demon/Chaos Tunnels(70) - 1110 4460
+Resource Dungeon Metal Dragons/ Brimhaven(80) - 1140 4500
+Resource Dungeon Implings/Alkharid(75) 1181 4515
+Resource Dungeon Frost Dragons/Asgarnia Ice Dungeon(85) 1297 4510
+
+'Rum'-geon (braindeath isle) (not positive, missing mapdata) 1053 5005
+Scape-rune party-room 2085 4463
+
+Keldagrim Ratpits 1953 4704
+Dragonkin Castle (robert the strong cutscene) 1891 4527
+Draynor Christmas Event Factory 2006 4440
+Pyramid Plunder 1958 4449
+
+Waterbirth Dungeon -> Ladder to DKs 1911 4366
+While Guthix Sleeps Movaro(spellcheck) base 2005 4401
+While Guthix Sleeps Movaro(spellcheck) base2 2074 4383
+
+Lost goblin Plane Yubisk(spellcheck) 2198 4258
+
+Braindeath Island 2121 5090
+
+Stronghold of Security ladder floor 1 1860 5244
+Stronghold of Security chest floor 1 1907 5221
+Stronghold of Security ladder floor 2 2042 5245
+Stronghold of Security chest floor 2 2020 5215
+Stronghold of Security ladder floor 3 2122 5251
+Stronghold of Security chest floor 3 2144 5281
+Stronghold of Security ladder floor 4 2358 5215
+Stronghold of Security chest floor 4 2344 5213
+
+Between a Rock area 1 2367 4961
+Between a Rock area 2 2560 4960
+
+
+Runecrafting Altars Blood? 2464 4895
+Runecrafting Altar Air? 2400 4836
+Runecrafting Altar Law 2464 4829
+Runecrafting Altar Body 2520 4832
+Runecrafting Altar Fire 2580 4843
+Runecrafting Altar Earth 2659 4839
+Runecrafting Mind Altar 2788 4839
+Runecrafting Altar Nature 2844 4828
+Runecrafting Altar Death 2203 4836
+Runecrafting Altar Cosmic 2203 4836
+Runecrafting Altar Chaos 2271 4840
+Rune Essence Mine 2830 4526
+Runecrafting Altar Water 3486 4836
+
+Abyssal Teleport Random 2332 4772
+Abyssal Space Runecraft/Dark Mage 3038 4833
+The Abyss/Abyssal Plane 3057 4881
+King Black Dragon Lair 2275 4680
+
+Sabbots Cave 2269 4756
+
+Mage Bank Bank 2538 4716
+Mage Bank Statues 2507 4722
+Freaky Forester Random 2603 4775
+
+ShipYard Seperate Area 2562 4578
+Karamja Seperate Area 2531 4559
+Lighthosue Seperate Aera 24464592
+Tyras Catapult seperate area 2315 4593
+
+Zanaris Secret Base 2273 4433
+Zanaris Bank 2381 4458
+Zanaris Market Place 2483 4454
+Zanaris Chicken Lair 2452 4476
+Zanaris Secret area 2453 4396
+Juliet Dungeon 2324 4642
+
+Part of Kalphite Hive I think 2347 4385
+Zanik Quest area I believe 2335 4329
+
+Bandos Throne Room 1 2344 4275
+Bandos Throne Room 2 2339 4243
+Dorgesh-kaan bank 2446 4325
+Lost Goblin City before Bandos2585 4193
+Monkey Maddness Jungle Demon Area 2651 4573
+Monkey Maddness Zombie Dungeon 2758 9103
+Monkey Maddness dungeon 2798 9198
+Monkey Maddness dungeon2 2787 9168
+
+Wilderness Spirit Farm Basement 2840 4317
+
+Wilderness Spirit Realm Rogue Castle 2724 4323
+Wilderness Spirit Realm Graveyard 2779 4326
+Wilderness Spirit Realm Flying Axe hut 2784 4384
+Wilderness Spirit Realm Dark Knight Fortress/Tormented Wraith 2848 4382
+Wilderness Spirit Realm ??? 2834 4259
+Wilderness Spirit Realm Farm 2933 4292
+Wilderness Spirit Realm Chaos Altar 3296 4187
+Wilderness Spirit Realm North-East Coast Ruins 3230 4186
+
+Goblin Altar Room 2784 4251
+
+Daggonath Kings 2900 4449
+
+Corporeal Beast quest dungeon area 2985 4386
+Corporeal Beast area 2977 4384
+
+Tower of Life 2841 4266
+Enchanted Valley 3038 4507
+
+Yanille seperate area 2927 4714
+Maze Random 2912 4577
+
+ZMI altar 3318 4809
+Camo Random 3152 4822
+
+Unstable Foundations tutorial quest three headed green dragon area 3292 4942
+
+Chaos Tunnel quest enterance (east of varrock) 3150 5233
+Pheonix Lair 3535 5197
+
+Treasure chest island random event 3290 4703
+Evil Bob Random Island 3423 4780
+
+Uzer ruins desert demon/evil dave 3554 4964
+
+Cockroach Dungeon chest 3161 4258
+Maggies Caravan thingy  3229 4451
+Maggie quest thing 3295 4511
+Under Rimmington witch hut place 3227 4521
+Under Rimmington witch hut part 3168 4518
+
+Soul Wars Mini-game 3610 5403
+
+Muspah Cave 3414 5541
+Muspah Cave 2 3486 5543
+
+Circus 3548 5599
+
+Ice Strykewyrm Cave 3434 5651
+
+Spirit Shard area 3690 5560
+
+Draynor Seperate 3861 5468
+
+Lumbridge Catacombs 3865 5525
+Lumbridge Catacombs training area 3971 5563
+
+Ritual Of the Mahjarrhat Kethsa 4014 5709
+
+Verac Additional Dungeon 4071 5713
+Kethsa basement 4128 5727
+
+Recruitment Drive area? 4110 5750
+
+Glacor cave 4184 5733
+Rimmington Basement I believe??? could be part of thieves guild quest 4615 5942
+
+Thieves Guild part I 4663 5900
+Thieves Guild part II 4763 5902
+Thieves Guild part III 4640 5792
+Thieves Guild part IV 4761 5773
+
+Sea Slug Rubium place 2640 4922
+
+Mansion Quest area 2846 5086
+
+Gorak Plane 3040 5346
+
+Sorrcoress Garden 2909 5468
+
+While Guthix Sleeps Stone of Jas 2605 5728
+Chaos Tunnels 3248 5489
+
+Little Island 3628 5720
+Fist of Guthix 1663 5708
+
+LavaFLow Mine 2182 5664
+Mole 1752 5137
+
+Player Mod Room:2848 5152
+
+Kuradel Slayer Dungeon 1656 5258
+
+
+
+
+-Surface-
+Varrock
+Varrock Grand Exchange 3165 3482
+Varrock West Bank 3183 3439
+Varrock East Bank 3253 3421
+Varrock Sawmill 3310 3502
+Varrock Digsite area 3368 3420
+Varrock Digsite Building 3360 3342
+
+Draynor
+Draynor Manor 3109 3361
+Draynor Bank 3092 3242
+Draynor Wizards Tower 3108 3160
+
+Port Sarim
+Port Sarim Bar 3048 3256
+Port Sarim Dock 3027 3219
+Port Sarim Church 2997 3178
+
+Rimmington
+Rimmington 2957 3213
+Rimmington Maze 2932 3244
+
+Falador
+Falador West Bank 2945 3370
+Falador East Bank 3013 3355
+Falador Partyroom 3043 3375
+Falador Artisans Workshop 3046 3340
+Falador Ice Mountain 3007 3476
+Falador Goblin Village 2956 3506
+
+Taverley
+Taverley Herblore Shop 2899 3428
+Taverley Druid Circle 2926 3484
+
+Burthorpe
+Burthorpe Games room 2899 3563
+Burthorpe Turael 2928 3546
+Burthorpe White Wolf Mountain 2851 3498
+
+Catherby
+Catherby bank 2808 3440
+Catherby fishing 2857 3430
+Catherby island 2841 3424
+
+Seers Village
+Seers Village Flax 2742 3445
+Seers Village Bank 2724 3491
+Seers Village Camelot Castle 2757 3486
+Seers Village Sinclair Mansion 2741 3564
+Seers Village McGrubors Wood 2655 3485
+Seers Village Coal Trucks 2721 3383
+
+Hemenster
+Hemenster Fishing Contest 2638 3438
+Hemenster Sorcerers Tower 2702 3404
+Hemenster Temple of Ikov 2678 3402
+
+Ardougne
+East Ardougne
+Ardougne East Ardougne South Bank 2653 3284
+Ardougne East Ardougne North Bank 2615 3333
+Ardougne East Ardougne stalls 2661 3306
+Ardougne East Ardougne castle 2576 3298
+
+West Ardougne
+Ardougne West Ardougne square 2528 3310 
+Ardougne West Ardougne underground pass 2445 3316
+Ardougne West Ardougne Training Camp 2521 3368
+Ardougne West Ardougne Chaos Tower 2562 3356
+
+Witchhaven 
+Witchhaven Church 2723 3283
+Witchhaven Fishing Platform 2766 3276
+
+Gnome Stronghold
+Gnome Stronghold Gate 2460 3394
+Gnome Stronghold Agility Course 2478 3426
+Gnome Stronghold Grand Tree 2465 3488
+Gnome Stronghold Gnomeball 2395 3490
+Gnome Stronghold Eagles Peak 2328 3498
+
+Barbarian Outpost
+Barbarian Outpost Agility Course 2552 3554
+Barbarian Outpost Barbarian Assault 2535 3567
+Barbarian Outpost Fish Flingers 2583 3530
+Barbarian Outpost Lighthouse 2507 3640
+
+
+Piscatoris Fishing Colony
+Piscatoris bank 2330 3689 
+Piscatoris falconer 2373 3611
+Piscatoris pheonix lair 2294 3625
+
+Castlewars
+Castlewars bank 2442 3089
+Castlewars Zamorak  2374 3129
+Castlewars Saradomin 2423 3079
+Castlewars center 2399 3103
+
+Treegnome Village 
+Treegnome Village 2532 3167
+Treegnome Village battlefield 2515 3245
+
+ZMI Altar 2455 3238
+
+Port Khazard
+Port Khazard Fight Arena 2601 3162
+Port Khazard Port 2658 3158
+Port Khazard Tower of Life 2649 3218
+
+Yanille
+Yanille bank 2611 3093
+Yanille watchtower 2546 3115
+
+Ogre Area
+Ogre area city 2519 3041
+Ogre area Zogre area 2481 3047
+Ogre Area ogress city 2574 2850
+Ogre Area Mobilising Armies 2413 2838
+
+Soulwars
+Soulwars main area 1889 3177
+Soulwars middle 1885 3228
+Soulwars Saradomin Avatar 1807 3214
+Soulwars Zamorak avatar 1967 3250
+
+
+Isafdar
+Isafdar Tyras Camp2186 3147
+Isafdar Lletya 2343 3170
+Isafdar Elf Camp 2202 3253
+
+Ape Atoll 
+Ape Atoll Castle 2792 2785
+Ape Atoll agility course 2761 2728
+Ape Atoll Crash Island 2899 2725
+Ape Atoll boat 2800 2709
+
+Void Outpost
+Void Outpost 2659 2658
+Void Outpost pest control 2656 2593
+Void Outpost small island 2860 2584 
+
+Karamja 
+Karamja Shilo Village Bank 2852 2955
+Karamja Kharzai Jungle 2778 2917
+Karamja Kharzai Jungle Jadinko area 2956 2914
+Karamja Kharzai Jungle Jadinko area island 2976 2911 
+Karamja Cairn Isle 2765 2980
+Karamja Tai Bwo Wannai 2790 3063
+Karamja Shipyard 2956 3024
+Karamja Banana Plantation 2913 3172
+Karamja Volcano 2848 3166
+Karamja Brimhaven 2785 3185
+Karamja Moss Giant Isle 2696 3211
+
+Lunar Island 
+Lunar Island bank 2101 3919
+Lunar island altar 2151 3862
+Lunar Island pirates cove 2206 3810
+
+Rocking Out Jail Island 3032 2981
+
+Fremennik Isles
+Fremennik Isles Neitiznot bank  2336 3807 
+Fremennik Isles Jatizso bank 2416 3801
+Fremennik Isles north part 2371 3890
+
+Miscellania
+Miscellania Castle 2504 3860
+Etcteria bank 2619 3895
+
+Crandor 2835 3274 
+Entrana 2827 3344
+
+Rellekka
+Rellekka stalls 2645 3674
+Rellekka Waterbirth Island 2545 3755
+Rellekka Mountain Camp 2788 3673
+Rellekka Hunter area 2728 3773
+
+Troll Stronghold 
+Troll stronghold trollhiem 2883 3673 
+Troll stronghold death plateau 2859 3591
+Troll Stronghold Ice Path 2862 3809
+Troll Stronghold Trollweiss Mountain 2791 3853
+Troll Stronghold Castle2831 3855
+Troll Stronghold Wilderness Castle 2913 3933
+Troll stronghold Godwars Dungeon 2894 3758
+
+
+Kharidian Desert
+Kharidian Desert Al Kharid Castle 3291 3173
+Kharidian Desert Al Kharid Bank 3267 3166
+Kharidian Desert Al Kharid mine 3300 3307
+Kharidian Desert Al Kharid  Duel Arena 3363 3268
+Kharidian Desert Al Kharid Mage Trainning Arena 3362 3317
+Kharidian Desert Citharede 3398 3177
+Kharidian Desert Mining Camp 3293 3027
+Kharidian Desert Bandit Camp 3176 2986
+Kharidian Desert Kalphite Hive 3234 3108
+Kharidian Desert Pollnivneach 3358 2982
+Kharidian Desert Pyramid 3232 2916
+Kharidian Desert Quarry 3174 2916
+Kharidian Desert Agility Pyramid 3345 2827
+Kharidian Desert Nardah 2425 2919
+Kharidian Desert Uzer 3485 3089
+Kharidian Desert Sophanem 3309 2792 
+Kharidian Desert Swamp 3510 2932
+
+Mos Le Harmless 3682 2975
+
+Harmony 3801 2826
+Dragontooth Island 3807 3556
+
+Port Phasmatys
+Port Phasmatys bank 3690 3467
+Port Phasmatys Ectofuntus 3658 3521 
+Canifis 3496 3490
+Slayer Tower 3427 3544
+Barrows 3564 3300
+Mort'ton 3487 3288
+Burgh De Rott 3494 3235
+
+Meiyerditch Vampire  city 3645 3368
+
+Wilderness Agility Arena 2997 3953
+Wilderness Mage Arena 3104 3932
+Wilderness Rogue Castle 3293 3927
+Wilderness Lava maze 3084 3866
+Wilderness King Black Dragon KBD lair 3015 3849
+Wilderness Red Dragon Island 3199 3829
+Wilderness Dark Knight Fortress 3026 3632
+Wilderness Altar 2951 3822
+Wilderness Altar 3237 3609
+Wilderness Bandit Camp 3037 3691
+Wilderness Demonic Ruins 3297 3888
+
+
+
+Guilds 
+Guilds Mages Guild 2591 3087
+Guilds Legend Guild 2728 3368
+Guilds Ranging Guild 2668 3427
+Guilds Fishing Guild 2596 3410
+Guilds Warriors Guild 2867 3540
+Guilds Heroes Guild 2897 3510
+Guilds Prayer/Monastery 3052 3491
+Guilds Cooking 3144 3449
+Guilds Crafting 2933 3282
+Guilds Champions 3192 3357

@@ -1,0 +1,53 @@
+X: 3187 Y: 3442 H: 0 L: varrock ban
+X: 3187 Y: 3443 H: 0 L: py mephesto
+X: 2925 Y: 5204 H: 0 L: g nex
+X: 2540 Y: 5773 H: 0 L: g tormenteddemons
+X: 2787 Y: 9997 H: 0 L: g slayercaves
+X: 3278 Y: 4324 H: 0 L: g slayerdung
+X: 1754 Y: 5334 H: 0 L: g ancientcavern
+X: 1768 Y: 5366 H: 1 L: g ancientcavernentrance
+X: 1707 Y: 5599 H: 0 L: g fistofguthix
+X: 3242 Y: 3574 H: 0 L: g fogentrance
+X: 1663 Y: 5695 H: 0 L: g fistofguthixgame
+X: 2621 Y: 9566 H: 0 L: g cavewithstairs
+X: 2580 Y: 9440 H: 0 L: g addgiantseasnake
+X: 2399 Y: 4448 H: 0 L: g zanaris
+X: 2346 Y: 5214 H: 0 L: g strongholdsecuritylastfloor
+X: 2401 Y: 5215 H: 0 L: g lavacavestage
+X: 2463 Y: 5214 H: 0 L: g tzhaarbooks
+X: 2860 Y: 9736 H: 0 L: g lostcitydramentree
+X: 3305 Y: 9812 H: 0 L: g soul'sbane
+X: 2776 Y: 9099 H: 0 L: g apeatoldung
+X: 3243 Y: 9890 H: 0 L: g varrocksewers
+X: 2040 Y: 5232 H: 0 L: g strongholdfirst
+X: 1860 Y: 5245 H: 0 L: g strongholdfirstttt
+X: 2128 Y: 5288 H: 0 L: g stronghold third
+X: 3042 Y: 9544 H: 0 L: g icecaves
+X: 2207 Y: 5344 H: 0 L: g summoningmakearea
+X: 3660 Y: 3517 H: 0 L: g ectofunt
+X: 1887 Y: 4393 H: 0 L: g daggonothcave
+X: 3440 Y: 3333 H: 0 L: g naturespirit
+X: 2727 Y: 3276 H: 0 L: g interestingplace
+X: 2608 Y: 9672 H: 0 L: g sewershazeelscoffin
+X: 2577 Y: 9888 H: 0 L: g waterfalldungeon
+X: 2515 Y: 3859 H: 0 L: g miscellenia
+X: 3120 Y: 9862 H: 0 L: g edgevilledungeon
+X: 2595 Y: 5279 H: 0 L: g barbassault
+X: 1886 Y: 5472 H: 0 L: g barbassaultwaves
+X: 2843 Y: 10129 H: 0 L: g bigdwarfarea
+X: 1823 Y: 5216 H: 1 L: g boatwithfire
+X: 3504 Y: 3575 H: 0 L: g graveyard island
+X: 2961 Y: 3028 H: 0 L: g monkeymadness karamja shipyard
+X: 2716 Y: 10133 H: 0 L: g brineratcavern
+X: 3179 Y: 3459 H: 0 L: g
+X: 2735 Y: 10163 H: 0 L: g wtfisthis
+X: 3079 Y: 9505 H: 0 L: g tutmining
+X: 3023 Y: 9740 H: 0 L: g mining guild
+X: 2967 Y: 3607 H: 0 L: g west dragons
+X: 2952 Y: 3888 H: 0 L: g wilderness ice warriors
+X: 3348 Y: 9629 H: 0 L: g donator zone?
+X: 2087 Y: 4467 H: 0 L: g evil bob jail
+X: 2339 Y: 3692 H: 0 L: g fishing spot
+X: 2338 Y: 3649 H: 0 L: g miningplace
+X: 2562 Y: 3309 H: 0 L: g lever
+X: 3199 Y: 3830 H: 0 L: g redragon isle
