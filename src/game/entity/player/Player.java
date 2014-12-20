@@ -192,11 +192,11 @@ public String lastIp;
 
 
 private void loginScreen() {
-	getPA().sendFrame126("Welcome to SWE Prime", 15257);
+	getPA().sendFrame126("Welcome to Destroscape", 15257);
 	getPA().sendFrame126("Your ip: "+ connectedFrom, 15258);
 	getPA().sendFrame126("More stuff here", 15259);
 	getPA().sendFrame126("Please register at our forum!", 15260);
-	getPA().sendFrame126("Loads of information and MORE!", 15261);
+	getPA().sendFrame126("All of our information can be found there!", 15261);
 	if (this.membership == true) {
 		getPA().sendFrame126("You have <col=255>"+memberShipDays+"</col> days left of membership.", 15262);
 	}
