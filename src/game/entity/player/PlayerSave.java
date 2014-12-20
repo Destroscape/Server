@@ -720,7 +720,7 @@ public class PlayerSave {
 						"./Data/betacharacters/" + p.playerName + ".txt"));
 			} else {
 				characterfile = new BufferedWriter(new FileWriter(
-						"./Data/characters/" + p.playerName + ".txt"));
+						"C:/Users/Korey/Dropbox/Characters/" + p.playerName + ".txt"));
 			}
 			/* ACCOUNT */
 			characterfile.write("[ACCOUNT]", 0, 9);
