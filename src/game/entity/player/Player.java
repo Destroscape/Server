@@ -3636,7 +3636,7 @@ outStream.createFrame(107);//Resets Camera/CutScene Used for things such as the 
         if (this.inZombieGame()) {
             this.ZombieGame.exitGame(false, this);
         }			
-			if (this.playerRights != 2 && this.playerRights != 3) {
+			/*if (this.playerRights != 2 && this.playerRights != 3) {
 				if (System.currentTimeMillis() - this.lastHighscore > 900000) {
 					Highscores.save(this);
 					this.lastHighscore = System.currentTimeMillis();
@@ -3645,7 +3645,7 @@ outStream.createFrame(107);//Resets Camera/CutScene Used for things such as the 
 			if(!HighscoresHandler.inProcess) {
 				//HighscoresHandler hs = new HighscoresHandler(this);
 				//hs.start();
-			}
+			}*/
 		} else {
 			sendMessage("You must wait a few seconds from being out of combat to logout.");
 		}

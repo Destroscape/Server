@@ -134,12 +134,12 @@ public class Server {
 		//md = new MadTurnipConnection();
 		//md.start();
 
-	Highscores.process();
+	/*Highscores.process();
 	if (Highscores.connected) {
 		System.out.println("[S] Successfully connected to the Highscores MySQL DB");
 	} else {
 		System.out.println("[F] Failed to connect to the Highscores MySQL DB");
-	}
+	}*/
 		/**
 		 * Accepting Connections
 		 */

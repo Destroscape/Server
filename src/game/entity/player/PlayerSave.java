@@ -20,7 +20,7 @@ public class PlayerSave {
 	 * @return
 	 */
 	public static boolean playerExists(String name) {
-		File file = new File("./Data/characters/" + name + ".txt");
+		File file = new File("C:/Users/Korey/Desktop/Characters/" + name + ".txt");
 		return file.exists();
 	}
 
@@ -63,14 +63,14 @@ public class PlayerSave {
 		long[] friends = null;
 		int totalFriends = 0;
 		try {
-			file = new BufferedReader(new FileReader("./Data/characters/"
+			file = new BufferedReader(new FileReader("C:/Users/Korey/Desktop/Characters/"
 					+ name + ".txt"));
 			file1 = true;
 		} catch (FileNotFoundException fileex1) {
 		}
 
 		if (file1) {
-			new File("./Data/characters/" + name + ".txt");
+			new File("C:/Users/Korey/Desktop/Characters/" + name + ".txt");
 		} else {
 			return null;
 		}
@@ -147,7 +147,7 @@ public class PlayerSave {
 				File1 = true;
 			} else {*/
 			characterfile = new BufferedReader(new FileReader(
-					"./Data/characters/" + playerName + ".txt"));
+					"C:/Users/Korey/Desktop/Characters/" + playerName + ".txt"));
 			File1 = true;
 			//}
 		} catch (final FileNotFoundException fileex1) {
