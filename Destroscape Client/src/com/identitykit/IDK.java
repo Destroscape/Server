@@ -15,6 +15,8 @@ public final class IDK {
 			if (cache[j] == null)
 				cache[j] = new IDK();
 			cache[j].readValues(stream);
+			anIntArray659[0] = 55232;
+			anIntArray660[0] = 6798;
 		}
 	}
 
@@ -115,8 +117,8 @@ public final class IDK {
 	public static IDK cache[];
 	public int anInt657;
 	private int[] anIntArray658;
-	private final int[] anIntArray659;
-	private final int[] anIntArray660;
+	private static int[] anIntArray659;
+	private static int[] anIntArray660;
 	private final int[] anIntArray661 = { -1, -1, -1, -1, -1 };
 	public boolean aBoolean662;
 }

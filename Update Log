@@ -1,7 +1,38 @@
 ~ December 20th, 2014 ~
 	- Lyons has now been connected... uh oh ;)
+	* Server Sided *
 	- Disabled DwarfCannon & Must come back to Operate.java to determine why they were disabling it..
 	- Renamed all previous SWE Prime/Staff related titles.
 	- Colony Gate/Doors (Skilling Area) have been properly disabled.
 	- Spirit shard package should be lowered on quantity given.
 	- Bankers open some type of moneybank method..? Disabled this.
+	
+	* Client Sided *
+	- Auto-Cache/client Updater has been implemented.
+	- Splash.gif has been implemented.
+	- Client updater has been disabled for the time being.
+	- Mac compatible is still not functioning correctly, Will download the cache correct but not load.
+	- Character IDK models now are working properly..
+		- Player is still invisible, and username is still buggy. 
+		- Pink in the hair has been fixed. <- This caused the player to look UGLY.
+		- looking into this.
+	TODO:
+	- Client sided, Pack cache sprites and fix the login screen to the custom transparent one.  
+		- Would be nice for a new client background.. Think it's about time.
+	- Underlay/overlay upgrade to 717 rather 530. 
+		- This will just upgrade the looks... HD ;)
+	- Upgrade the textures to 831, of which I obtained through my buddy.
+		- Credits to Frosty teh snowman, Travis.
+	- Perhaps drop in the new osrs items, of which i'm ready to drop as well..
+		- Any OSRS data can be dumped, Just more time consuming considering I haven't obtained my decoders for the id lists.
+	- Server Sided, Move home to Varrock castle.
+		- Spawn location in garden.
+		- Re-do the starter tutorial in order to show the castle instead of edge.
+		- Third floor being the training area, look near combat dummys.
+		- Second floor being whatever..
+		- First floor being shops?
+		- Outside being whatever.
+		- Look farther into this guys, Home would be best at this location... especially with the levels.
+		- Delete Fairy Ring object and replace it with a different method, Perhaps try using lodestones..
+			- In order to use lodestones, we would need to upgrade our objects *Jordan* and determine what the object ID would be.
+			
