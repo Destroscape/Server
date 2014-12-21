@@ -52,7 +52,7 @@ public class FirstClickNpc {
 		case 580: //Skilltasks
 			c.getDH().sendDialogues(5100, npcId);
 			break;
-//START OF SANTAS HELPER
+			//START OF SANTAS HELPER
 
 		case 9400: //Santas little helper
 		if (c.santasHelp == 0) {
@@ -356,7 +356,7 @@ public class FirstClickNpc {
 		case 7605:
 		case 1360:
 		case 2619:
-			//MoneyBank.openMoneyBank(c);
+			MoneyBank.openMoneyBank(c);
 			break;
 
 			/**

@@ -63,6 +63,17 @@ public class ClickObject implements PacketType {
 						+ (c.getY() - c.objectY));
 			}
 			switch (c.objectId) {
+			case 14929:
+			case 14931:
+				c.sendMessage("I'm sorry, Players are not permitted to go outside the colony!");
+			break;
+			case 14923:
+				c.sendMessage("I'm sorry, This area has been closed!");
+			break;
+			case 14973:
+				c.getItems().addItem(303, 1);
+				c.sendMessage("You take a small fishing net...");
+			break;
 			/**
 			 * Brimhaven Staircase
 			 */

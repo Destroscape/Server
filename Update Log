@@ -2,3 +2,6 @@
 	- Lyons has now been connected... uh oh ;)
 	- Disabled DwarfCannon & Must come back to Operate.java to determine why they were disabling it..
 	- Renamed all previous SWE Prime/Staff related titles.
+	- Colony Gate/Doors (Skilling Area) have been properly disabled.
+	- Spirit shard package should be lowered on quantity given.
+	- Bankers now open bank.
