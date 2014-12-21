@@ -17,7 +17,8 @@
 		- Pink in the hair has been fixed. <- This caused the player to look UGLY.
 		- looking into this.
 	TODO:
-	- Client sided, Pack cache sprites and fix the login screen to the custom transparent one.  
+	* Client sided *
+		- Pack cache sprites and fix the login screen to the custom transparent one.  
 		- Would be nice for a new client background.. Think it's about time.
 	- Underlay/overlay upgrade to 717 rather 530. 
 		- This will just upgrade the looks... HD ;)
@@ -25,7 +26,9 @@
 		- Credits to Frosty teh snowman, Travis.
 	- Perhaps drop in the new osrs items, of which i'm ready to drop as well..
 		- Any OSRS data can be dumped, Just more time consuming considering I haven't obtained my decoders for the id lists.
-	- Server Sided, Move home to Varrock castle.
+	
+	* Server Sided *
+		- Move home to Varrock castle.
 		- Spawn location in garden.
 		- Re-do the starter tutorial in order to show the castle instead of edge.
 		- Third floor being the training area, look near combat dummys.
