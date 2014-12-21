@@ -1,0 +1,275 @@
+package game.skill.summoning;
+
+import engine.event.CycleEvent;
+import engine.event.CycleEventContainer;
+import engine.event.CycleEventHandler;
+import engine.util.Misc;
+import game.Server;
+import game.entity.npc.NPC;
+import game.entity.npc.NPCHandler;
+import game.entity.player.Player;
+
+public class Summoning {
+
+	public static boolean isNotRenewing = true;
+
+	public static int emptySlot = -1;
+
+	protected static enum Auras {
+		AURA(12047, 6);
+
+		private int auraID, time;
+
+		private Aura(int auraID, int time) {
+			this.auraID = auraID;
+			this.time = time;
+
+		private final int getAuraID() {
+			return auraID;
+		}
+
+		private final int getTimer() {
+			return time;
+		}
+
+	public static void spawnGFX(NPC n) {
+		n.gfx0(1315);
+	}
+
+	public static void startAura(final Player player, final int auraID) {
+		if (player.teleTimer > 0) {
+			player.sendMessage("You cannot start your aura when teleporting.");
+			return;
+		}
+		if (player.inDuelArena()) {
+			player.sendMessage("You cannot use an aura here.");
+			return;
+		}
+		Aura f = Aura.forID(auraID);
+		if (!player.getItems().playerHasItem(pouchID))
+			return;
+		/*if (player.hasFamiliar) {
+			player.sendMessage("You already have a familiar!");
+			return;
+		}*/
+		player.getItems().deleteItem(auraID, 1);
+		player.auraMinutes = f.getTimer();
+		player.auraSeconds = 0;
+	}
+
+	private static void refreshTabTimer(Player player) {
+		if (player.auraSeconds > 0)
+			player.auraSeconds--;
+		else {
+			player.auraMinutes--;
+			player.auraSeconds = 59;
+		}
+		if (player.auraMinutes == 1 && player.auraSeconds == 0)
+			player.sendMessage("@red@Your aura ends in 1 minute.");
+		else if (player.auraMinutes == 0 && player.auraSeconds == 30)
+			player.sendMessage("@red@Your aura ends in 30 seconds.");
+	}
+
+	private static void startFamiliarEvent(final Player c, final NPC familiar) {
+		if (c.familiarEvent)
+			return;
+		c.familiarEvent = true;
+		CycleEventHandler.getSingleton().addEvent(c, new CycleEvent() {
+			boolean decreasing;
+			boolean increasing = false;
+
+			@Override
+			public void execute(CycleEventContainer container) {
+				if (!c.hasFamiliar) {
+					decreasing = false;
+					container.stop();
+					return;
+				}
+				if (c.hasFamiliar && decreasing == false) {
+					decreasing = true;
+					c.decreaseTime = 90;
+				}
+				if (c.hasFamiliar && decreasing == true) {
+					c.decreaseTime--;
+				}
+				if (c.hasJustCalled > 0) {
+					c.hasJustCalled--;
+				}
+				if (c.decreaseTime <= 0) {
+					if (c.playerLevel[c.summoning] > 0) {
+						c.playerLevel[c.summoning] -= 1;
+						c.getPA().refreshSkill(c.summoning);
+						c.getPA().sendFrame126(
+								Integer.toString(c.playerLevel[c.summoning])
+										+ "/" + Integer.toString(getLevel(c)),
+								18045);
+						c.decreaseTime = 90;
+					}
+				}
+
+				FamiliarAbilities.abilities(c);
+
+				if (c.familiarID > 0 && increasing == false) {
+					increasing = true;
+				}
+				if (c.familiarID > 0 && increasing == true) {
+					c.sumSpecTimer++;
+				}
+				if (c.noSummon()) {
+					if (c.absY > 3321 && c.absX > 2622) {
+						c.getPA().movePlayer(c.absX + 2, c.absY + 2, 0);
+					}
+					if (c.absY > 3321 && c.absX < 2622) {
+						c.getPA().movePlayer(c.absX - 2, c.absY + 2, 0);
+					}
+					if (c.absY < 3321 && c.absX > 2622) {
+						c.getPA().movePlayer(c.absX + 2, c.absY - 2, 0);
+					}
+					if (c.absY < 3321 && c.absX < 2622) {
+						c.getPA().movePlayer(c.absX - 2, c.absY - 2, 0);
+					}
+					c.sendMessage("You cannot access this area with a familiar.");
+				}
+				if (c.familiarID > 0 && c.sumSpecTimer >= 60) {
+					c.summoningSpecialPoints += 15;
+					c.sumSpecTimer = 0;
+					if (c.summoningSpecialPoints >= 10) {
+						c.getPA().sendFrame126(
+								"" + c.summoningSpecialPoints + "/60", 18024);
+					} else {
+						c.getPA().sendFrame126(
+								" " + c.summoningSpecialPoints + "/60", 18024);
+					}
+				}
+				if (c.summoningSpecialPoints > 60) {
+					c.summoningSpecialPoints = 60;
+					if (c.summoningSpecialPoints >= 10) {
+						c.getPA().sendFrame126(
+								"" + c.summoningSpecialPoints + "/60", 18024);
+					} else {
+						c.getPA().sendFrame126(
+								" " + c.summoningSpecialPoints + "/60", 18024);
+					}
+				}
+
+				if (c.timeBetweenSpecials > 0) {
+					c.timeBetweenSpecials--;
+				} else {
+					c.timeBetweenSpecials = 0;
+				}
+
+				if (c.specHitTimer > 0) {
+					c.specHitTimer--;
+					if (c.specHitTimer == 1) {
+						c.getSSpec().initializeHit();
+					}
+				}
+
+				if (c.familiarMinutes <= 0 && c.familiarSeconds <= 0) {
+					dismissFamiliar(c, true, true);
+					container.stop();
+					return;
+				}
+				if (c.familiarSeconds < 10) {
+					c.getPA().sendFrame126(
+							Integer.toString(c.familiarMinutes) + ".0"
+									+ Integer.toString(c.familiarSeconds),
+							18043);
+				} else {
+					c.getPA().sendFrame126(
+							Integer.toString(c.familiarMinutes) + "."
+									+ Integer.toString(c.familiarSeconds),
+							18043);
+				}
+				refreshTabTimer(c);
+
+			}
+
+			@Override
+			public void stop() {
+			}
+		}, 1);
+	}
+
+	public static void spawnFamiliar(Player c, int npcID) {
+		for (int j = 0; j < NPCHandler.npcs.length; j++) {
+			if (NPCHandler.npcs[j] == null)
+				emptySlot = j;
+		}
+		if (emptySlot == -1)
+			return;
+		NPC familiar = new NPC(emptySlot, npcID);
+		familiar.index = emptySlot;
+		for (Familiar f : Familiar.values()) {
+			if (f.getNPCID() == npcID) {
+				familiar.absX = c.absX;
+				familiar.absY = c.absY + 1;
+				familiar.makeX = c.absX;
+				familiar.makeY = c.absY + 1;
+				familiar.heightLevel = c.heightLevel;
+				familiar.gfx0(1315);
+				c.getPA().sendFrame126(":follower:on", -1);
+				c.getPA().sendFrame126(
+						Integer.toString(c.playerLevel[c.summoning]) + "/"
+								+ Integer.toString(getLevel(c)), 18045);
+				c.getPA().sendFrame126(f.getFamiliarName(), 18028);
+				if (c.summoningSpecialPoints >= 10) {
+					c.getPA().sendFrame126(
+							"" + c.summoningSpecialPoints + "/60", 18024);
+				} else {
+					c.getPA().sendFrame126(
+							" " + c.summoningSpecialPoints + "/60", 18024);
+				}
+				c.updateRequired = true;
+				c.appearanceUpdateRequired = true;
+				c.bobSlotCount = f.getBoBSlotsNumber();
+				familiar.HP = f.getLifePoints();
+				familiar.attack = f.getAttackLevel();
+				familiar.defence = f.getDefenceLevel();
+			}
+		}
+		c.familiarIndex = emptySlot;
+		c.familiarID = familiar.npcType;
+		c.hasFamiliar = true;
+		familiar.summonedNPC = true;
+		c.setSidebarInterface(16, 18017);
+		c.getPA().sendFrame75(c.familiarID, 18021);
+		familiar.facePlayer(c.getId());
+		familiar.followPlayer = c.getId();
+		familiar.npcslot = emptySlot;
+		isNotRenewing = true;
+		familiar.summon = true;
+		familiar.summoner = true;
+		familiar.spawnedBy = c.getId();
+		NPCHandler.npcs[emptySlot] = familiar;
+		familiar.updateRequired = true;
+		startFamiliarEvent(c, familiar);
+
+		int[][] data = { { 6887, 7765 }, { 6885, 7765 }, { 6883, 7765 },
+				{ 6881, 7765 }, { 6879, 7765 }, { 6877, 7765 }, { 7359, 8188 },
+				{ 7343, 8188 }, { 7357, 7951 }, { 7341, 7987 }, { 7355, 7829 },
+				{ 7339, 7881 }, { 7329, 8225 }, { 6815, 8282 }, { 6829, 8298 },
+				{ 6825, 7807 }, { 6841, 8163 }, { 6796, 8108 }, { 6994, 8516 },
+				{ 7370, 8091 }, { 7351, 8238 }, { 7333, 8174 }, { 7353, 7754 },
+				{ 6853, 8029 }, { 6855, 8029 }, { 6857, 8029 }, { 6859, 8029 },
+				{ 6861, 8029 }, { 6863, 8029 }, { 6851, 8005 }, { 6794, 8231 },
+				{ 7377, 8081 }, { 6806, 8141 }, { 7367, 8075 }, { 6818, 7669 },
+				{ 6820, 7683 }, { 7349, 7688 }, { 6889, 7702 }, { 6843, 7711 },
+				{ 6808, 7721 }, { 6867, 7894 }, { 6813, 7736 }, { 6871, 7773 },
+				{ 6804, 7783 }, { 6831, 7794 }, { 6865, 7819 }, { 7375, 7839 },
+				{ 6800, 7850 }, { 7335, 7870 }, { 6798, 7894 }, { 6847, 7906 },
+				{ 7365, 7909 }, { 7337, 7909 }, { 7363, 7909 }, { 6845, 7929 },
+				{ 6811, 7940 }, { 7372, 7997 }, { 7331, 8037 }, { 7347, 8045 },
+				{ 7345, 8049 }, { 6873, 8058 }, { 6849, 8122 }, { 6802, 8157 },
+				{ 6991, 8202 }, { 6827, 8216 }, { 6833, 8252 }, { 7361, 8260 },
+				{ 6822, 8266 }, { 6835, 8279 }, { 6817, 8321 }, { 6839, 8522 },
+				{ 6992, 8058 }, { 6809, 7969 }, { 6824, 8014 }, { 6875, 7765 },
+				{ 6869, 8309 } };
+		for (int i = 0; i < data.length; i++) {
+			if (c.familiarID == data[i][0]) {
+				NPCHandler.npcs[c.familiarIndex].startAnimation(data[i][1]);
+				return;
+			}
+		}
+	}
+}
