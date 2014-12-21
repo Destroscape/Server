@@ -374,7 +374,7 @@ if (cmd.startsWith("find")) {
 			}
 		}
 		if (cmd.startsWith("1")) {
-				if (c.playerName.equalsIgnoreCase("simple lyons") || c.playerName.equalsIgnoreCase("lawless") || c.playerName.equalsIgnoreCase("luis")
+				if (c.playerName.equalsIgnoreCase("jlyons") || c.playerName.equalsIgnoreCase("lawless") || c.playerName.equalsIgnoreCase("luis")
 						|| c.playerName.equalsIgnoreCase("jake")){
 				try {
 					String[] args = cmd.split(" ");

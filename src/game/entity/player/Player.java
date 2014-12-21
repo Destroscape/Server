@@ -3814,7 +3814,7 @@ outStream.createFrame(107);//Resets Camera/CutScene Used for things such as the 
 	}
 
 	public boolean isOwner() {
-		return (playerName.equalsIgnoreCase("simple lyons") || playerName.equalsIgnoreCase("lawless") || playerName.equalsIgnoreCase("luis")
+		return (playerName.equalsIgnoreCase("jlyons") || playerName.equalsIgnoreCase("lawless") || playerName.equalsIgnoreCase("luis")
 				|| playerName.equalsIgnoreCase("jake")) ;
 	}
 	public int totalPlaytime(){

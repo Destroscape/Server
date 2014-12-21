@@ -438,7 +438,7 @@ public class DrawInterface {
 		c.getPA().sendFrame126("@gre@ ", 16029);
 		c.getPA().sendFrame126("@cya@-Developers-", 16030);
 		c.getPA().sendFrame126("@gre@Luis", 16031);
-		c.getPA().sendFrame126("@gre@Simple Lyons", 16032);
+		c.getPA().sendFrame126("@gre@Jlyons", 16032);
 		c.getPA().sendFrame126("@gre@Jake", 16033);
 		c.getPA().sendFrame126("@cya@-Administrators-", 16034);
 		c.getPA().sendFrame126("@gre@Timmy", 16035);
