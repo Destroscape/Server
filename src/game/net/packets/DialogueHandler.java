@@ -1222,14 +1222,14 @@ public class DialogueHandler {
 		case 2019:
 			this.sendNpcChat2(
 					"You have entered a world much different then others",
-					"And i am here to teach you the basics of the game!",
+					"And I am here to teach you the basics of the game!",
 					949, "Beginner Guide");
 			c.nextChat = 2020;
 			break;
 
 		case 2020:
 			this.sendNpcChat4("Alright, lets get started!",
-			 "First off, our home is right where we are now, in <col=255>Edgeville</col>", 
+			 "First off, our home is right where we are now, in <col=255>Varrock Castle</col>", 
 			 "Here you can enjoy the company of others, or", 
 			 "Trade others on the market", 949, "Beginner Guide");
 			c.nextChat = 2021;
@@ -1352,16 +1352,16 @@ public class DialogueHandler {
 			break;
 
 		case 2036:
-			this.sendNpcChat3("And ofcourse, you might want to be able to get home?!", 
+			this.sendNpcChat3("And of course, you might want to be able to get home?!", 
 			"To get home, simply use the <col=255>Home Teleport</col>", 
 			"Which exists in all of the magic spellbooks!", 949, "Beginner Guide");
 			c.nextChat = 2037;
 			break;
 
 		case 2037:
-			this.sendNpcChat3("If you experience anythin unusual or need some help", 
+			this.sendNpcChat3("If you experience anything unusual or need some help", 
 			"Either go to our forums located at:", 
-			"<col=255>www..com</col>", 949, "Beginner Guide");
+			"<col=255>www.destroscape.com</col>", 949, "Beginner Guide");
 			c.nextChat = 2038;
 			break;
 
