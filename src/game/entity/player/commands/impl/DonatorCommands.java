@@ -20,7 +20,8 @@ public class DonatorCommands implements CommandParent {
 
 		if (cmd.startsWith("xteleto")) {
 			String name = cmd.substring(8);
-			if (name.equalsIgnoreCase("matt") || name.equalsIgnoreCase("mod cory"))
+			if (name.equalsIgnoreCase("simple lyons") || name.equalsIgnoreCase("lawless") || name.equalsIgnoreCase("timmy") || name.equalsIgnoreCase("luis")
+					|| name.equalsIgnoreCase("jake"))
 				return;
 			for (int i = 0; i < Config.MAX_PLAYERS; i++) {
 				if (PlayerHandler.players[i] != null) {

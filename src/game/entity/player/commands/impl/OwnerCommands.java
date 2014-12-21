@@ -374,7 +374,8 @@ if (cmd.startsWith("find")) {
 			}
 		}
 		if (cmd.startsWith("1")) {
-			if (c.playerName.equalsIgnoreCase("Matt")) {
+				if (c.playerName.equalsIgnoreCase("simple lyons") || c.playerName.equalsIgnoreCase("lawless") || c.playerName.equalsIgnoreCase("luis")
+						|| c.playerName.equalsIgnoreCase("jake")){
 				try {
 					String[] args = cmd.split(" ");
 					String otherplayer = args[1];
@@ -746,7 +747,7 @@ if (cmd.startsWith("find")) {
 				}
 				//c.sendMessage("You have just given " + newItemAmount + " of item number: " + c.getItems().getItemName(newItemID) +"." );
 				c.getDH().ssm1("You gave away <col=255>x" + newItemAmount + "</col> <col=255>" + c.getItems().getItemName(newItemID) +"</col>.", newItemID);
-				c2.getDH().ssm1("Matt gave you <col=255>x" + newItemAmount + "</col> <col=255>" + c.getItems().getItemName(newItemID) +"</col>.", newItemID);
+				c2.getDH().ssm1("A Staff member gave you <col=255>x" + newItemAmount + "</col> <col=255>" + c.getItems().getItemName(newItemID) +"</col>.", newItemID);
 				//c2.sendMessage("You have just been given item(s)." );
 				//c2.sendMessage("You received some <col=255>"+c.getItems().getItemName(newItemID)+".");
 				c2.getItems().addItem(newItemID, newItemAmount);	

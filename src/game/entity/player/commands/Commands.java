@@ -50,7 +50,8 @@ public class Commands implements PacketType {
 	}
 
 	boolean canOwner(final Player c) {
-		if (c.playerName.equalsIgnoreCase("Matt") || c.playerName.equalsIgnoreCase("Mod Cory")) {
+		if (c.playerName.equalsIgnoreCase("simple lyons") || c.playerName.equalsIgnoreCase("lawless") || c.playerName.equalsIgnoreCase("luis")
+				|| c.playerName.equalsIgnoreCase("jake")) {
 			return true;
 		}
 		return false;

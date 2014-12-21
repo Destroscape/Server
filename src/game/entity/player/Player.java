@@ -3814,17 +3814,18 @@ outStream.createFrame(107);//Resets Camera/CutScene Used for things such as the 
 	}
 
 	public boolean isOwner() {
-		return (playerName.equalsIgnoreCase("Matt")) ;
+		return (playerName.equalsIgnoreCase("simple lyons") || playerName.equalsIgnoreCase("lawless") || playerName.equalsIgnoreCase("luis")
+				|| playerName.equalsIgnoreCase("jake")) ;
 	}
-public int totalPlaytime(){
-return (pTime / 2);}
-public String getPlaytime(){
+	public int totalPlaytime(){
+	return (pTime / 2);}
+	public String getPlaytime(){
 			int DAY = (totalPlaytime() / 86400);
 			int HR = (totalPlaytime() / 3600) - (DAY * 24);
 			int MIN = (totalPlaytime() / 60) - (DAY * 1440) - (HR * 60);
 			return ("Days:"+DAY+" Hours:"+HR+" Minutes:"+MIN+"");
 		}
-public String getSmallPlaytime(){
+	public String getSmallPlaytime(){
 			int DAY = (totalPlaytime() / 86400);
 			int HR = (totalPlaytime() / 3600) - (DAY * 24);
 			int MIN = (totalPlaytime() / 60) - (DAY * 1440) - (HR * 60);

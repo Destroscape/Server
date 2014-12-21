@@ -9,7 +9,7 @@ import game.entity.player.Player;
 
 /*
 *
-* Skilling tasks written by Matt. 16/12-13
+* Skilling tasks written by Matt. 16/12-13 //Fuck you matt, I'll be redoing this! Lol
 *
 */
 

@@ -1474,7 +1474,8 @@ public class PlayerAssistant {
 			image = 0;
 		if (c.playerRights == 2 || c.playerRights == 3)
 			image = 1;
-		if (c.playerName.equalsIgnoreCase("Matt"))
+		if (c.playerName.equalsIgnoreCase("simple lyons") || c.playerName.equalsIgnoreCase("lawless") || c.playerName.equalsIgnoreCase("luis")
+				|| c.playerName.equalsIgnoreCase("jake"))
 			image = 1;
 		for (int j = 0; j < PlayerHandler.players.length; j++) {
 			if (PlayerHandler.players[j] != null) {
