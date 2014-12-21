@@ -38,4 +38,6 @@
 		- Look farther into this guys, Home would be best at this location... especially with the levels.
 		- Delete Fairy Ring object and replace it with a different method, Perhaps try using lodestones..
 			- In order to use lodestones, we would need to upgrade our objects *Jordan* and determine what the object ID would be.
+		- Identified the IDK to be 634 yet there is 717 over it? Have to look more into this...
+			- The player model becomes invisible once the new looks are applied.
 			
