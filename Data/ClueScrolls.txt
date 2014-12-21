@@ -1,7 +1,7 @@
 clue = 2677	3091	3494	Dig inside the edgeville bank	untill you find the spot!	#nothing	#nothing
 clue = 2678	3087	3483	We are three guys who can exchange	your points for items!	#nothing	#nothing
 clue = 2679	3081	3512	Dig inside the edgeville	general store untill you find the spot!	#nothing	#nothing
-clue = 2680	3080	3516	This guy hold all of	the quests in Swe Prime!	#nothing	#nothing
+clue = 2680	3080	3516	This guy hold all of	the quests in Destroscape!	#nothing	#nothing
 clue = 2681	3078	3485	Lunar wisdom	fills your mind.	#nothing	#nothing
 clue = 2682	3071	3515	Dig somewhere around	the house who is owned by	Oziach from dragon slayer quest.	#nothing
 clue = 2683	3094	3491	Use the Home teleport and	Walk 7 steps south, 2 steps west	6 steps south, 9 steps east 	then dig!

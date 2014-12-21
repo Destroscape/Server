@@ -1,4 +1,4 @@
-package game.content;
+/*package game.content;
 
 import game.Server;
 import engine.event.*;
@@ -27,73 +27,74 @@ import java.util.List;
  *
  * @author lare96
  * @author relaxlawl
- */
+ *
 public class DwarfCannon {
+	
  
     /**
      * The damage range the cannon may deal (between 0 and this number). This
      * can (and should) be edited to deal damage based on your skill levels.
-     */
+     *
     private static final int MAX_DAMAGE = 30;
  
     /**
      * The range of a cannon (how far it can shoot) in tiles. This is to ensure
      * that only NPC's within the distance are hit by the cannon.
-     */
+     *
     private static final int MAX_RANGE = 5;
  
     /**
      * How close you are allowed to build to another cannon (in tiles)
-     */
+     *
     private static final int DISTANCE_TO_BUILD = 10;
  
     /**
      * List of other cannons set up by other players in the {@link World}. We
      * need this so that cannons cannot be built too close to each other (that
      * would cause problems wouldn't it?).
-     */
+     *
     private static List<MultiCannonObject> cannons = new ArrayList<MultiCannonObject>();
  
     /**
      * The player using the cannon
-     */
+     *
     private Player player;
  
     /**
      * How far the player has come in setting up the cannon. There are 6 stages
      * in total, the default stage being that the player has not started setting
      * up a cannon.
-     */
+     *
     private Setup stage = Setup.NO_CANNON;
  
     /**
      * The direction the cannon is facing. This is very important for us to have
      * because we need it to turn the cannon and target npcs in the specific
      * direction its facing.
-     */
+     *
     private Rotation rotation;
  
     /**
      * The instance of the cannon object you (the player instanced in this
      * class) are in control of.
-     */
+     *
     public MultiCannonObject cannon;
  
     /**
      * The amount of cannonballs that are currently loaded and being fired in
      * this cannon.
-     */
+     *
     private int balls;
  
     /**
      * Flag that returns if your cannon is currently shooting or not.
-     */
+     *
     private boolean shooting;
  
     /**
      * Construct a new {@link DwarfCannon} Object to be used to handle the
      * functions of the multi-cannon.
-     */
+     *
     public DwarfCannon(Player player) {
         this.player = player;
     }
@@ -101,7 +102,7 @@ public class DwarfCannon {
     /**
      * The six cannon setup stages in chronological order (note: do not change
      * order, order is crucial!).
-     */
+     *
     private enum Setup {
         NO_CANNON, BASE, STAND, BARRELS, FURNACE, COMPLETE_CANNON
     }
@@ -109,7 +110,7 @@ public class DwarfCannon {
     /**
      * The eight directions a cannon can face, in chronological order (note: do
      * not change order, order is crucial!).
-     */
+     *
     private enum Rotation {
         NORTH, NORTH_EAST, EAST, SOUTH_EAST, SOUTH, SOUTH_WEST, WEST, NORTH_WEST
     }
@@ -117,13 +118,13 @@ public class DwarfCannon {
     /**
      * Set up a cannon for the player and add the cannon to the list of active
      * cannons.
-     */
+     *
     public void setup() {
  
         /**
          * If we already have a cannon setup/completed, then we cannot make
          * another one.
-         */
+         *
         if (stage.ordinal() != 0) {
             player.sendMessage("You have already started setting up a cannon!");
             return;
@@ -131,7 +132,7 @@ public class DwarfCannon {
  
         /**
          * If we are too close to another cannon, do not build.
-         */
+         *
         for (MultiCannonObject other : cannons) {
             if (other.getPosition().withinDistance(new Position(player.absX, player.absY, player.heightLevel), DISTANCE_TO_BUILD)) {
                 player.sendMessage("You are trying to build too close to another cannon!");
@@ -141,18 +142,18 @@ public class DwarfCannon {
  
         /**
          * Checks if you have the items to build the cannon.
-         */
+         *
         if (player.getItems().playerHasItem(6, 1) && player.getItems().playerHasItem(8, 1) && player.getItems().playerHasItem(10, 1) && player.getItems().playerHasItem(12, 1)) {
  
             /**
              * Stop movement to ensure cannon is built in the right place
              * (crucial).
-             */
+             *
             player.stopMovement();
  
             /**
              * Set up the base
-             */
+             *
             stage = Setup.BASE;
             player.startAnimation(827);
             MultiCannonObject base = new MultiCannonObject(7, player);
@@ -166,7 +167,7 @@ public class DwarfCannon {
  
             /**
              * Set up the stand
-             */
+             *
             Server.getTaskScheduler().schedule(new Task(3, false) {
                 @Override
                 protected void execute() {
@@ -189,7 +190,7 @@ public class DwarfCannon {
  
             /**
              * Set up the barrel
-             */
+             *
             Server.getTaskScheduler().schedule(new Task(6, false) {
                 @Override
                 protected void execute() {
@@ -212,7 +213,7 @@ public class DwarfCannon {
  
             /**
              * Set up the furnace and complete the cannon
-             */
+             *
             Server.getTaskScheduler().schedule(new Task(9, false) {
                 @Override
                 protected void execute() {
@@ -238,19 +239,19 @@ public class DwarfCannon {
     /**
      * Pick up a cannon for the player and remove the cannon from the list of
      * active cannons.
-     */
+     *
     public void pickup(Position p) {
  
         /**
          * Checks if the cannon we are picking up is our cannon
-         */
+         *
         if (cannon.getPosition().getX() == p.getX() && cannon.getPosition().getY() == p.getY() && cannon.getPosition().getZ() == p.getZ()) {
  
             /**
              * Stop firing and remove the cannon from the rs2 world, and the
              * list of active cannons. Then, add all the parts and unfired
              * cannonballs to your inventory or bank.
-             */
+             *
             shooting = false;
             player.startAnimation(827);
             Objects empty = new Objects(6951, new Position(cannon.getPosition().getX(), cannon.getPosition().getY(), cannon.getPosition().getZ()), 0, 10);
@@ -293,17 +294,17 @@ public class DwarfCannon {
  
     /**
      * Load the cannon and begin firing
-     */
+     *
     public void shoot(Position p) {
  
         /**
          * Checks if the cannon we are shooting is our cannon
-         */
+         *
         if (cannon.getPosition().getX() == p.getX() && cannon.getPosition().getY() == p.getY() && cannon.getPosition().getZ() == p.getZ()) {
  
             /**
              * Do not shoot if we are already firing
-             */
+             *
             if (shooting) {
                 player.sendMessage("Your cannon is already firing!");
                 return;
@@ -311,8 +312,8 @@ public class DwarfCannon {
  
             /**
              * Load cannonballs and begin rotating the cannon and firing at mobs
-             * based on the direction the cannon is facing.
-             */
+             * baed on the direction the cannon is facing.
+             *
             if (balls < 1) {
                 int amountOfCannonBalls = player.getItems().itemAmount(2) > 30 ? 30 : player.getItems().itemAmount(2);
  
@@ -387,7 +388,7 @@ public class DwarfCannon {
     /**
      * Rotate the cannon and change the object animation based on the direction
      * we are facing.
-     */
+     *
     private void rotate(MultiCannonObject cannon) {
         switch (rotation) {
             case NORTH: // north
@@ -421,22 +422,22 @@ public class DwarfCannon {
     /**
      * Fires at a targeted mob and decrements the amount of cannonballs the
      * cannon has by one for each mob hit.
-     */
+     *
     private void fireAtMobs() {
  
         /**
          * Target a mob
-         */
+         *
         NPC hit = targetMob(player, new Position(cannon.getPosition().getX(), cannon.getPosition().getY(), cannon.getPosition().getZ()));
  
         /**
          * Get the damage to deal
-         */
+         *
         int damage = Misc.random(MAX_DAMAGE);
  
         /**
          * Deal the damage based on if you are in a single or multi-combat area.
-         */
+         *
         if (hit != null) {
             if (player.getRegion().inMulti() && player.getRegion().inWild()) {
                 cannonProjectile(player, cannon, hit);
@@ -464,7 +465,7 @@ public class DwarfCannon {
     /**
      * Targets a specific mob based on the cannon's distance to it, and the
      * cannon's direction relative to the mob.
-     */
+     *
     private NPC targetMob(Player player, Position p) {
         for (int i = 0; i < NPCHandler.maxNPCs; i++) {
             if (NPCHandler.npcs[i] == null) {
@@ -528,7 +529,7 @@ public class DwarfCannon {
     /**
      * Fires the cannonballs (well not really, it just makes it so that we
      * actually see cannonball projectiles)
-     */
+     *
     private void cannonProjectile(Player player, Objects cannon, NPC n) {
         int oX = cannon.getPosition().getX();
         int oY = cannon.getPosition().getY();
@@ -541,7 +542,7 @@ public class DwarfCannon {
     /**
      * Gets if the player is building or not based on what {@link Setup} stage
      * they are on.
-     */
+     *
     public boolean isBulding() {
         return stage.ordinal() == 0 || stage.ordinal() == 5 ? false : true;
     }
@@ -549,7 +550,7 @@ public class DwarfCannon {
     /**
      * Iterate through the list of active cannons and remove this players
      * cannon.
-     */
+     *
     public void remove() {
         for (Iterator<MultiCannonObject> iter = cannons.iterator(); iter.hasNext();) {
             MultiCannonObject m = iter.next();
@@ -566,8 +567,8 @@ public class DwarfCannon {
  
     /**
      * @return the cannons
-     */
+     *
     public List<MultiCannonObject> getCannons() {
         return cannons;
     }
-}
+}*/

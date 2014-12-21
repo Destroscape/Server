@@ -45,7 +45,7 @@ public class Pins {
 				client.sendMessage("@red@Please set a bank PIN");
 			}
 		client.getPA().showInterface(7424);
-		client.getPA().sendFrame126("SWE Prime Security", 14923);
+		client.getPA().sendFrame126("Destroscape Security", 14923);
 		client.getPA().sendFrame126("?", 14913);
 		client.getPA().sendFrame126("?", 14914);
 		client.getPA().sendFrame126("?", 14915);

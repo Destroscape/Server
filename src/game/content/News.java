@@ -6,9 +6,9 @@ import game.entity.player.Player;
 public class News {
 	
 	/**
-	 * Title of SWE Prime
+	 * Title of Destroscape
 	 */
-	private static final String TITLE = "-SWE Prime News-";
+	private static final String TITLE = "-Destroscape News-";
 	
 	/**
 	 * All lines for the newspaper

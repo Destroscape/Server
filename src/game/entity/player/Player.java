@@ -4598,6 +4598,10 @@ public String getSmallPlaytime(){
 
 	public CycleEvent skilling;
 
+	public int barbarianKilled, barbarianToKill;
+
+	public int TVM;
+
 	public CycleEvent getSkilling() {
 		return skilling;
 	}

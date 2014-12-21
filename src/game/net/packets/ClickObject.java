@@ -262,7 +262,7 @@ public class ClickObject implements PacketType {
 
 			case 26969:
 			case 9398:// deposit
-				c.getPA().sendFrame126("The Bank of SWE Prime - Deposit Box",
+				c.getPA().sendFrame126("The Bank of Destroscape - Deposit Box",
 						7421);
 				c.getPA().sendFrame248(4465, 197);//
 				c.getItems().resetItems(7423);

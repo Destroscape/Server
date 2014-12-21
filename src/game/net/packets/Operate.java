@@ -1,15 +1,15 @@
-/*package game.net.packets;
+package game.net.packets;
 
 import game.entity.player.Player;
 import game.item.ItemDegradation;
-
+/* Come back to this class to look why they were disabling this. */
 public class Operate {
 
 
 	public static void handleClick(Player c, final int itemId) {
 		switch (itemId) {
 
-		/*case 11283:
+		case 11283:
 		case 11284:
 			if (c.playerIndex > 0) {
 				c.getCombat().handleDfs(c);				
@@ -17,7 +17,7 @@ public class Operate {
 				c.getCombat().handleDfsNPC(c);
 			}
 			c.sendMessage("Your "+c.getItems().getItemName(itemId) +" currently has "+ c.dfsCount +" charges left.");
-			break;*/
+			break;
 			
 		case 22494:
 			c.sendMessage("You have " + c.ppsLeft + " charges left!");
@@ -38,4 +38,3 @@ public class Operate {
 	}
 
 }
-*/

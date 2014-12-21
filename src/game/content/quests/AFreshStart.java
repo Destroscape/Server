@@ -67,7 +67,7 @@ public class AFreshStart {
 		c.getPA().sendFrame126("10,000 Coins for reperation!", 8149);
 		c.getPA().sendFrame126("15K XP in the skill of your choosing!", 8150);
 		c.getPA().sendFrame126("Access on Captain Shanks Boat!", 8151);
-		c.getPA().sendFrame126("Good Luck and welcome to SWE Prime!", 8153);
+		c.getPA().sendFrame126("Good Luck and welcome to Destroscape!", 8153);
 		c.getPA().showInterface(8134);
 	}
 }

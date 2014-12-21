@@ -1,3 +1,3 @@
 @echo off
-"C:\Program Files\Java\jdk1.6.0_25\bin\javac.exe" *.java
+"C:\Program Files\Java\jdk1.8.0_05\bin\javac.exe" *.java
 pause

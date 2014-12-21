@@ -12,7 +12,7 @@ public class Config {
 														// world--8
 
 	/** Server Messaging Config **/
-	public static final String SERVER_NAME = "SWE Prime";
+	public static final String SERVER_NAME = "Destroscape";
 	public static final String WELCOME_MESSAGE = "Welcome to @red@"+Config.SERVER_NAME+"!";
 	public static int MESSAGE_DELAY = 6000; // delay with server message via
 	public static final int CLIENT_UID = 2856789;
@@ -22,13 +22,13 @@ public class Config {
 	 * URLS
 	 */
 
-	public static final String HOMEPAGE_URL = "www.sweprime.com";
-	public static final String FORUM_URL = "www.sweprime.com/forum";
-	public static final String VOTE_URL = "www.sweprime.com/vote";
-	public static final String DONATE_URL = "www.sweprime.com/donate/donate.php";
-	public static final String SUGGESTIONS_URL = "www.sweprime.com/forum/forumdisplay.php?fid=11";
-	public static final String UPDATES_URL = "www.sweprime.com/forum/forumdisplay.php?fid=2";
-	public static final String HIGHSCORES_URL = "www.sweprime.com/Highscores";
+	public static final String HOMEPAGE_URL = "www.destroscape.com";
+	public static final String FORUM_URL = "www.destroscape.com/forum";
+	public static final String VOTE_URL = "www.destroscape.com/vote";
+	public static final String DONATE_URL = "https://www.paypal.com/uk/cgi-bin/webscr?cmd=_flow&SESSION=RrsWkePycitasNSFf78lbCvBSGTk036oL7nblMz4lZM_LRjwbvRHMOKkB_m&dispatch=5885d80a13c0db1f8e263663d3faee8d66f31424b43e9a70645c907a6cbd8fb4";
+	public static final String SUGGESTIONS_URL = "http://destroscape.com/index.php?/forum/14-suggestions/";
+	public static final String UPDATES_URL = "www.destroscape.com/index.php?/forum/9-updates/";
+	public static final String HIGHSCORES_URL = "www.destroscape.com/Highscores";
 
 
 	/**
@@ -50,7 +50,7 @@ public class Config {
 	public static final int CLIENT_VERSION = 317; // our client build
 	public static final int CONNECTION_DELAY = 500; // how long one ip can keep
 													// connecting.
-	public static final int IPS_ALLOWED = 2; // how many ips are allowed
+	public static final int IPS_ALLOWED = 1; // how many ips are allowed
 	public static final int TIMEOUT = 20; //
 	public static final int CYCLE_TIME = 600; // how long it takes to complete
 												// one cycle (600 default)

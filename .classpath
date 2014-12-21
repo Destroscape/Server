@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/stephanie/Documents/GitHub/Server/deps/gson-2.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/stephanie/Documents/GitHub/Server/deps/gson-2.2.2-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/stephanie/Documents/GitHub/Server/deps/GTLVote.jar"/>
+	<classpathentry kind="lib" path="C:/Users/stephanie/Documents/GitHub/Server/deps/jython.jar"/>
+	<classpathentry kind="lib" path="C:/Users/stephanie/Documents/GitHub/Server/deps/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/stephanie/Documents/GitHub/Server/deps/mina.jar"/>
+	<classpathentry kind="lib" path="C:/Users/stephanie/Documents/GitHub/Server/deps/mysql.jar"/>
+	<classpathentry kind="lib" path="C:/Users/stephanie/Documents/GitHub/Server/deps/netty.jar"/>
+	<classpathentry kind="lib" path="C:/Users/stephanie/Documents/GitHub/Server/deps/poi.jar"/>
+	<classpathentry kind="lib" path="C:/Users/stephanie/Documents/GitHub/Server/deps/slf4j.jar"/>
+	<classpathentry kind="lib" path="C:/Users/stephanie/Documents/GitHub/Server/deps/slf4j-nop.jar"/>
+	<classpathentry kind="lib" path="C:/Users/stephanie/Documents/GitHub/Server/deps/upnp.jar"/>
+	<classpathentry kind="lib" path="C:/Users/stephanie/Documents/GitHub/Server/deps/xstream.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
