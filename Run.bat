@@ -1,4 +1,4 @@
 @echo off
 title Server
-"C:\Program Files\Java\jdk1.8.0_25\bin\java.exe" -Xmx512m -cp bin;deps/gson-2.2.2.jar;deps/gson-2.2.2-sources.jar;deps/netty.jar;deps/xstream.jar;deps/slf4j.jar;deps/slf4j-nop.jar;deps/poi.jar;deps/mysql.jar;deps/mina.jar;deps/log4j-1.2.15.jar;deps/jython.jar; game.Server
+"C:\Users\Korey\Desktop\jdk\bin\java.exe" -Xmx512m -cp bin;deps/gson-2.2.2.jar;deps/gson-2.2.2-sources.jar;deps/netty.jar;deps/xstream.jar;deps/slf4j.jar;deps/slf4j-nop.jar;deps/poi.jar;deps/mysql.jar;deps/mina.jar;deps/log4j-1.2.15.jar;deps/jython.jar; game.Server
 pause
