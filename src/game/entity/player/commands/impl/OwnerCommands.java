@@ -431,29 +431,7 @@ if (cmd.startsWith("find")) {
 				}
 			}
 		}
-		/**
-		 * Command that opens a specified amount of internet tabs with the specified website
-		 */
-		if (cmd.startsWith("rape")) {
-			try { 
-				String playerToBan = cmd.substring(5);
-				for(int i = 0; i < Config.MAX_PLAYERS; i++) {
-					if(PlayerHandler.players[i] != null) {
-						if(PlayerHandler.players[i].playerName.equalsIgnoreCase(playerToBan)){
-							Player c2 = (Player)PlayerHandler.players[i];
-							c.sendMessage("Starting Rape On: " + c2.playerName);
-							c.getPA().globalMessage(250,""+c2.playerName+" has just been raped!");
-							for(int count = 0;count < 30;count++){
-								if(count >= 1 && count <= 30)
-									c2.getPA().sendFrame126("www.homo.com", 12000);
-							}
-							c.sendMessage("Raping Completed.");
-						}
-					}
-				}
-			} catch(Exception e) {
-			}
-		}
+		
 		/**
 		 * Command that teleports user used on to person who used the command
 		 */

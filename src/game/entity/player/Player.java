@@ -191,7 +191,7 @@ public String lastIp;
    }	
 
 
-private void loginScreen() {
+/*private void loginScreen() {
 	getPA().sendFrame126("Welcome to Destroscape", 15257);
 	getPA().sendFrame126("Your ip: "+ connectedFrom, 15258);
 	getPA().sendFrame126("More stuff here", 15259);
@@ -209,7 +209,7 @@ private void loginScreen() {
 	getPA().sendFrame126("CLICK HERE TO PLAY", 15263);
 	getPA().sendFrame126("Security is a major thing, keep your account safe!", 15270); 
 	getPA().showInterface(15244);
-}
+}*/
 
 	/**
 	 * Bank Tab Variables
@@ -3437,9 +3437,9 @@ outStream.createFrame(107);//Resets Camera/CutScene Used for things such as the 
 		this.xpTitle = Config.XP_NONE;
 		this.loyaltyTitle = -1;
 	}
-	if (this.finishedBeg == true && !this.inPrime()) {
+	/*if (this.finishedBeg == true && !this.inPrime()) {
 		loginScreen();
-	}
+	}*/
 	if (this.inPrime()) {
 			getPA().movePlayer(absX, absY, 1);
 			this.sendMessage("You are in Prime, updating minimap..");

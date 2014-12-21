@@ -356,7 +356,8 @@ public class FirstClickNpc {
 		case 7605:
 		case 1360:
 		case 2619:
-			MoneyBank.openMoneyBank(c);
+			c.sendMessage("Bankers are only here to make the bank look good.");
+			//MoneyBank.openMoneyBank(c);
 			break;
 
 			/**
