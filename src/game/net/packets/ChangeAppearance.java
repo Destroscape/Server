@@ -39,6 +39,26 @@ public class ChangeAppearance implements PacketType {
 			c.playerAppearance[10] = legsColour; // legs colour
 			c.playerAppearance[11] = feetColour; // feet colour
 			c.playerAppearance[12] = skinColour; // skin colour
+			if (head < 0) // head
+                c.playerAppearance[1] = head + 256;
+            else
+                c.playerAppearance[1] = head;
+            if (torso < 0)
+                c.playerAppearance[2] = torso + 256;
+            else
+                c.playerAppearance[2] = torso;
+            if (arms < 0)
+                c.playerAppearance[3] = arms + 256;
+            else
+                c.playerAppearance[3] = arms;
+            if (hands < 0)
+                c.playerAppearance[4] = hands + 256;
+            else
+                c.playerAppearance[4] = hands;
+            if (legs < 0)
+                c.playerAppearance[5] = legs + 256;
+            else
+                c.playerAppearance[5] = legs;
 			c.getPA().removeAllWindows();
 			c.getPA().requestUpdates();
 			c.canChangeAppearance = false;
