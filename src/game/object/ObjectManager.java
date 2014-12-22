@@ -188,7 +188,7 @@ public class ObjectManager {
 		 * c.getPA().checkObjectSpawn(-1, 2889, j, 0, 10); }
 		 */
 
-
+		//Fairy Rings, Object ID = 12003
 
 		
 		/**

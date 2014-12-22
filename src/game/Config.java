@@ -112,11 +112,11 @@ public class Config {
 												// IDLEing?
 
 	/** Player Spawn Config **/
-	public static final int START_LOCATION_X = 3087; // X Co-ordinate of
+	public static final int START_LOCATION_X = 3164; // X Co-ordinate of
 														// starting location
-	public static final int START_LOCATION_Y = 3504; // Y Co-ordinate of
+	public static final int START_LOCATION_Y = 3480; // Y Co-ordinate of
 														// starting location
-	public static final int START_HEIGHT_LEVEL = 0; // height level of starting
+	public static final int START_HEIGHT_LEVEL = 2; // height level of starting
 													// location
 	public static final int START_PLAYER_RIGHT = 0; // player right new players
 													// have when they first log
@@ -285,8 +285,8 @@ public class Config {
 
 	/** Teleport Config **/
 	// amulet of glory
-	public static final int HOME_X = 3087;
-	public static final int HOME_Y = 3504;
+	public static final int HOME_X = 3164;
+	public static final int HOME_Y = 3480;
 
 	public static final int EDGEVILLE_X = 3087; // X
 	public static final int EDGEVILLE_Y = 3500; // Y

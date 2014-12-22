@@ -11,6 +11,7 @@ import engine.network.Connection;
 import engine.util.Misc;
 import game.Config;
 import game.Server;
+import game.clip.region.Region;
 import game.combat.magic.NonCombatSpells;
 import game.combat.prayer.Prayer;
 import game.content.AntiPKFarming;
@@ -1608,27 +1609,31 @@ public class PlayerAssistant {
 		}
 		return false;
 	}
-
-	public void checkObjectSpawn(int objectId, int objectX, int objectY,
-			int face, int objectType) {
+	public void checkObjectSpawn(int objectId, int objectX, int objectY, int face, int objectType) {
+		checkObjectSpawn(objectId, objectX, objectY, face, objectType, 0);
+		}
+	public void checkObjectSpawn(int objectId, int objectX, int objectY, int face, int objectType, int height) {
 		if (c.distanceToPoint(objectX, objectY) > 60)
 			return;
-		if (c.getOutStream() != null && c != null) {
-			c.getOutStream().createFrame(85);
-			c.getOutStream().writeByteC(objectY - (c.getMapRegionY() * 8));
-			c.getOutStream().writeByteC(objectX - (c.getMapRegionX() * 8));
-			c.getOutStream().createFrame(101);
-			c.getOutStream().writeByteC((objectType << 2) + (face & 3));
-			c.getOutStream().writeByte(0);
-
-			if (objectId != -1) { // removing
-				c.getOutStream().createFrame(151);
-				c.getOutStream().writeByteS(0);
-				c.getOutStream().writeWordBigEndian(objectId);
-				c.getOutStream().writeByteS((objectType << 2) + (face & 3));
-			}
-			c.flushOutStream();
+		synchronized(c) {
+			if(c.getOutStream() != null && c != null) {
+				c.getOutStream().createFrame(85);
+				c.getOutStream().writeByteC(objectY - (c.getMapRegionY() * 8));
+				c.getOutStream().writeByteC(objectX - (c.getMapRegionX() * 8));
+				c.getOutStream().createFrame(101);
+				c.getOutStream().writeByteC((objectType<<2) + (face&3));
+				c.getOutStream().writeByte(height);
+			
+				if (objectId != -1) { // removing
+					c.getOutStream().createFrame(151);
+					c.getOutStream().writeByteS(height);
+					c.getOutStream().writeWordBigEndian(objectId);
+					c.getOutStream().writeByteS((objectType<<2) + (face&3));
+				}
+				c.flushOutStream();
+			}	
 		}
+		Region.addObject(objectId, objectX, objectY, height, objectType, face);
 	}
 
 	public void checkPouch(final int i) {
