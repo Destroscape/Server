@@ -9296,8 +9296,8 @@ public void loadNewObjects() {
 		addObject(28698, 2342, 3690, 0, 10, 0); // Armadyl Altar
 		
 		//Home
-		addObject(29954, 3090, 3506, 1, 10, 0); // summ restore
-		addObject(6552, 3084, 3488, 1, 10, 0); // Magic book switch
+		addObject(29954, 3154, 3485, 1, 10, 2); // summ restore
+		addObject(6552, 3175, 3487, 1, 10, 2); // Magic book switch
 		addObject(411, 3084, 3492, 1, 10, 0); // prayer book switch
 		addObject(409, 3084, 3495, 1, 10, 0); // pray restore
 		addObject(410, 3079, 3484, 1, 10, 0); // lunar
@@ -9323,7 +9323,7 @@ public void loadNewObjects() {
 		
 		//Test Building
 		//Bank Content - Facing: Objects overall =  [WEST = 0] [NORTH = 1] [EAST = 2] [SOUTH = 3]
-				objectLine(2213, 2888, 4550, 2894, 4550, 10, 2, 0); //Bank
+				objectLine(2213, 3160, 3479, 3169, 3479, 10, 1, 2); //Bank
 				addObject(19373, 2887, 4549, 2, 10, 0); addObject(19373, 2887, 4550, 2, 10, 0); //Plants
 				addObject(19373, 2895, 4549, 2, 10, 0); addObject(19373, 2895, 4550, 2, 10, 0);
 				addObject(591, 2896, 4550, 2, 10, 0); addObject(591, 2885, 4550, 0, 10, 0); //Bank Table	
@@ -9377,6 +9377,10 @@ public void loadNewObjects() {
 		addObject(1902, 2939, 4603, 1, 2, 0); //Wall //Corner 1 = NE Corner
 		addObject(1902, 2939, 4549, 2, 2, 0); //Wall //Corner 2 = SE Corner	
 		addObject(1902, 2885, 4549, 3, 2, 0); //Wall //Corner 3 = SW Corner
+		//HOME
+		addObject(1902, 3163, 3480, 3, 2, 2); //Wall //Corner 2 = SW Corner	
+		addObject(1902, 3165, 3480, 2, 2, 2); //Wall //Corner 3 = SE Corner
+		
 		
 			//BANK ROOM	//Walls [W = 0], [N = 1], [E = 2], [S = 3]	
 				objectLine(1902, 2885, 4564, 2890, 4564, 0, 3, 0);
@@ -9432,84 +9436,9 @@ public void loadNewObjects() {
 		objectLine(997, 2886, 4548, 2938, 4548, 0, 1, 0); //Wall - 3 = South Wall			
 		
 }	
-
-		/*private void connectServer() {
-		  int j = 5;
-			expectedCRCs[8] = 0;
-			int k = 0;
-			while(expectedCRCs[8] == 0)
-			{
-				String s = "Unknown problem";
-				drawLoadingText(20, "Connecting to web server");
-				try
-				{
-					DataInputStream datainputstream = openJagGrabInputStream("crc" + (int)(Math.random() * 99999999D) + "-" + 317);
-					Stream class30_sub2_sub2 = new Stream(new byte[40]);
-					datainputstream.readFully(class30_sub2_sub2.buffer, 0, 40);
-					datainputstream.close();
-					for(int i1 = 0; i1 < 9; i1++)
-						expectedCRCs[i1] = class30_sub2_sub2.readDWord();
-
-					int j1 = class30_sub2_sub2.readDWord();
-					int k1 = 1234;
-					for(int l1 = 0; l1 < 9; l1++)
-						k1 = (k1 << 1) + expectedCRCs[l1];
-
-					if(j1 != k1)
-					{
-						s = "checksum problem";
-						expectedCRCs[8] = 0;
-					}
-				}
-				catch(EOFException _ex)
-				{
-					s = "EOF problem";
-					expectedCRCs[8] = 0;
-				}
-				catch(IOException _ex)
-				{
-					s = "connection problem";
-					expectedCRCs[8] = 0;
-				}
-				catch(Exception _ex)
-				{
-					s = "logic problem";
-					expectedCRCs[8] = 0;
-					if(!SignLink.reporterror)
-						return;
-				}
-				if(expectedCRCs[8] == 0)
-				{
-					k++;
-					for(int l = j; l > 0; l--)
-					{
-						if(k >= 10)
-						{
-							drawLoadingText(10, "Game updated - please reload page");
-							l = 10;
-						} else
-						{
-							drawLoadingText(10, s + " - Will retry in " + l + " secs.");
-						}
-						try
-						{
-							Thread.sleep(1000L);
-						}
-						catch(Exception _ex) { }
-					}
-
-					j *= 2;
-					if(j > 60)
-						j = 60;
-					aBoolean872 = !aBoolean872;
-				}
-			}
-	 
-		}*/
 	
 	@Override
 	void startUp() {
-		//drawLoadingText(20, "Initializing "+Configuration.serverName+"");
 		drawSmoothLoading(20, "Starting up");
 		new UpdateCache(this).run();
 		if (SignLink.sunjava)
@@ -9524,7 +9453,6 @@ public void loadNewObjects() {
 						SignLink.cache_idx[i], i + 1);
 		}
 		try {
-		//connectServer();
 			titleStreamLoader = streamLoaderForName(1, "title screen", "title",
 					expectedCRCs[1], 25);
 			smallFont = new TextDrawingArea(false, "p11_full",
@@ -9567,16 +9495,13 @@ public void loadNewObjects() {
 			aClass30_Sub2_Sub1_Sub1_1263 = new Sprite(512, 512);
 			StreamLoader streamLoader_6 = streamLoaderForName(5, "update list",
 					"versionlist", expectedCRCs[5], 60);
-			//drawLoadingText(60, "Initializing "+Configuration.serverName+"");
 			drawSmoothLoading(60, "Connecting to update server");
 			onDemandFetcher = new OnDemandFetcher();
 			onDemandFetcher.start(streamLoader_6, this);
 			drawSmoothLoading(65, "Loading animations");
 			Class36.method528(onDemandFetcher.getAnimCount());
 			Model.method459(onDemandFetcher.getModelCount(), onDemandFetcher);
-			//drawLoadingText(70, "Initializing "+Configuration.serverName+"");
 			drawSmoothLoading(70, "Loading models");
-			//drawLoadingText(80, "Initializing "+Configuration.serverName+"");
 			drawSmoothLoading(80, "Unpacking media");
 			//preloadModels();
 			if (Configuration.repackModels) {
@@ -9593,8 +9518,6 @@ public void loadNewObjects() {
 			}
 			Sprite[] clanIcons = new Sprite[9];
 			for (int index = 0; index < clanIcons.length; index++) {
-				// clanIcons[index] = new Sprite(streamLoader_2, "clanicons",
-				// index);
 				clanIcons[index] = new Sprite("GameFrame/Icons/" + index);
 			}
 			for(int bh = 2; bh < 11; bh++) {

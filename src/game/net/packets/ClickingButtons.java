@@ -1810,9 +1810,17 @@ public class ClickingButtons implements PacketType {
 		case 50056:
 		case 117048:
 		case 4171:
-			c.getPA().spellTeleport(Config.HOME_X, Config.HOME_Y, 0);
+			c.getPA().spellTeleport(Config.HOME_X, Config.HOME_Y, Config.HOME_HEIGHT);
 			break;
-
+		/*case 4140:
+		case 4143:
+		case 4146:
+		case 4150:
+		case 6004:
+		case 6005:
+		case 29031:
+			c.sendMessage("This teleport hasn't been added yet.");
+			break;*/
 			/**
 			 * Pouch Creation
 			 **/
@@ -1910,63 +1918,63 @@ public class ClickingButtons implements PacketType {
 			//c.setSidebarInterface(6, 8000);
 			//c.getDH().sendOption5("Ice Strykewyrms", "Jungle Strykewyrms", "Desert Strykewyrms", "Ice Cave", "");
 			//c.dialogueAction = 117112;
-			// c.getPA().spellTeleport(2675, 3710, 0);
+			c.getPA().spellTeleport(2675, 3710, 0);
 			break;
 
 		case 4143: // lumby tele
 		case 50245:
 		case 117123:
-			//c.getDH().sendDialogues(55, 1);
-			// c.getPA().startTeleport(3222, 3218, 0, "modern");
+			c.getDH().sendDialogues(55, 1);
+			c.getPA().startTeleport(3222, 3218, 0, "modern");
 			break;
 
 		case 4146: // fally tele
 		case 50253:
 		case 117131:
-			//c.getPA().showInterface(5400);
-			//c.getDH().sendDialogues(58, 1);
-			//c.getPA().startTeleport(2964, 3378, 0, "modern");
+			c.getPA().showInterface(5400);
+			c.getDH().sendDialogues(58, 1);
+			c.getPA().startTeleport(2964, 3378, 0, "modern");
 			break;
 
 		case 4150: // cammy tele
 		case 51005:
 		case 117154:
-			//c.getPA().showInterface(33000);
-			//c.getPA().startTeleport(2335, 3689, 0, "modern");
+			c.getPA().showInterface(33000);
+			c.getPA().startTeleport(2335, 3689, 0, "modern");
 			break;
 
 		case 6004: // ardougne tele
-			// c.getPA().showInterface(33000);
-			// c.getDH().sendDialogues(101, 1);
-			//c.getPA().startTeleport(2662, 3305, 0, "modern");
+			c.getPA().showInterface(33000);
+			c.getDH().sendDialogues(101, 1);
+			c.getPA().startTeleport(2662, 3305, 0, "modern");
 			break;
 
 		case 6005:
-			//c.getPA().startTeleport(3087, 3500, 0, "modern");
+			c.getPA().startTeleport(3087, 3500, 0, "modern");
 			break;
 
 		case 29031: //Bounty Hunter Target Teleport
-			//BountyHunter.targetTeleport(c);
+			BountyHunter.targetTeleport(c);
 			break;
 
 		case 72038:
-			//c.getPA().startTeleport(2720, 2763, 0, "modern");
+			c.getPA().startTeleport(2720, 2763, 0, "modern");
 			break;
 
 		case 51013: // D in ancient
-			//c.getPA().startTeleport(3161, 3671, 0, "ancient");
+			c.getPA().startTeleport(3161, 3671, 0, "ancient");
 			break;
 
 		case 51023: //
-			//c.getPA().startTeleport(3156, 3666, 0, "ancient");
+			c.getPA().startTeleport(3156, 3666, 0, "ancient");
 			break;
 
 		case 51031:
-			//c.getPA().startTeleport(3288, 3886, 0, "ancient");
+			c.getPA().startTeleport(3288, 3886, 0, "ancient");
 			break;
 
 		case 51039:
-			//c.getPA().startTeleport(2977, 3873, 0, "ancient");
+			c.getPA().startTeleport(2977, 3873, 0, "ancient");
 			break;
 
 		case 55095:

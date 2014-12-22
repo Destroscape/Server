@@ -287,6 +287,7 @@ public class Config {
 	// amulet of glory
 	public static final int HOME_X = 3164;
 	public static final int HOME_Y = 3480;
+	public static final int HOME_HEIGHT = 2;
 
 	public static final int EDGEVILLE_X = 3087; // X
 	public static final int EDGEVILLE_Y = 3500; // Y
