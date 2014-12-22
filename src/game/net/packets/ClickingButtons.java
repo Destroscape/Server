@@ -1905,6 +1905,7 @@ public class ClickingButtons implements PacketType {
 			 */
 
 		case 4140: // varock tele
+		c.sendMessage("This teleport hasn't been added yet.");
 		case 50235:
 		case 117112:
 			//c.setSidebarInterface(6, 8000);
@@ -1914,6 +1915,7 @@ public class ClickingButtons implements PacketType {
 			break;
 
 		case 4143: // lumby tele
+		c.sendMessage("This teleport hasn't been added yet.");
 		case 50245:
 		case 117123:
 			//c.getDH().sendDialogues(55, 1);
@@ -1921,6 +1923,7 @@ public class ClickingButtons implements PacketType {
 			break;
 
 		case 4146: // fally tele
+		c.sendMessage("This teleport hasn't been added yet.");
 		case 50253:
 		case 117131:
 			//c.getPA().showInterface(5400);
@@ -1929,6 +1932,7 @@ public class ClickingButtons implements PacketType {
 			break;
 
 		case 4150: // cammy tele
+		c.sendMessage("This teleport hasn't been added yet.");
 		case 51005:
 		case 117154:
 			//c.getPA().showInterface(33000);
@@ -1936,16 +1940,19 @@ public class ClickingButtons implements PacketType {
 			break;
 
 		case 6004: // ardougne tele
+		c.sendMessage("This teleport hasn't been added yet.");
 			// c.getPA().showInterface(33000);
 			// c.getDH().sendDialogues(101, 1);
 			//c.getPA().startTeleport(2662, 3305, 0, "modern");
 			break;
 
 		case 6005:
+		c.sendMessage("This teleport hasn't been added yet.");
 			//c.getPA().startTeleport(3087, 3500, 0, "modern");
 			break;
 
 		case 29031: //Bounty Hunter Target Teleport
+		c.sendMessage("This teleport hasn't been added yet.");
 			//BountyHunter.targetTeleport(c);
 			break;
 
