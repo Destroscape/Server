@@ -18,3 +18,6 @@
 [Date: 21-11-2014]-[Time: 22:13]-    
 [Date: 21-11-2014]-[Time: 22:13]-    
 [Date: 22-11-2014]-[Time: 5:7]- npcid, xcoord, ycoord, 0, face, other shit, npc name 
+[Date: 22-11-2014]-[Time: 6:10]- s  
+[Date: 22-11-2014]-[Time: 7:48]-    
+[Date: 22-11-2014]-[Time: 8:0]- 2=n 3=s 4=e 5=w::tele 288  
