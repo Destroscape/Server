@@ -33,7 +33,7 @@ public class Configuration {
 	public static String serverName = "Destroscape";
 	public static String cacheDirectory = "/DestroCache/";
 	public static String frameTitle = "Destroscape";
-	public static String serverIp = "99.57.125.39";
+	public static String serverIp = "testserv.no-ip.org";
 	//99.57.125.39//Lyons
 	//95.211.153.129//VPS
 	//testserv.no-ip.org//Server

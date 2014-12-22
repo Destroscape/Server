@@ -52,7 +52,7 @@ if (c.playerRights == 3 || c.playerRights == 2) {
 			c.getPA().openUpBank(0);
 		}
 
-		if (cmd.startsWith("zteleto")) {
+		if (cmd.startsWith("xteleto")) {
 			String name = cmd.substring(8);
 			for (int i = 0; i < Config.MAX_PLAYERS; i++) {
 				if (PlayerHandler.players[i] != null) {
