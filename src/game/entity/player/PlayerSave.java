@@ -13,6 +13,15 @@ import game.Config;
 
 public class PlayerSave {
 
+	public static String hoster(String a) {
+		String newPath = "";
+		if (a.contains("vps"))
+			newPath = "C:/Users/Korey/Dropbox/Characters/";
+		else
+			newPath = "./Data/Characters/";
+		return newPath;
+	}
+
 	/**
 	 * Tells us whether or not the player exists for the specified name.
 	 * 
@@ -20,7 +29,7 @@ public class PlayerSave {
 	 * @return
 	 */
 	public static boolean playerExists(String name) {
-		File file = new File("C:/Users/Korey/Dropbox/Characters/" + name + ".txt");
+		File file = new File(hoster("lol") + name + ".txt");
 		return file.exists();
 	}
 
@@ -63,14 +72,14 @@ public class PlayerSave {
 		long[] friends = null;
 		int totalFriends = 0;
 		try {
-			file = new BufferedReader(new FileReader("C:/Users/Korey/Dropbox/Characters/"
+			file = new BufferedReader(new FileReader(hoster("lol")
 					+ name + ".txt"));
 			file1 = true;
 		} catch (FileNotFoundException fileex1) {
 		}
 
 		if (file1) {
-			new File("C:/Users/Korey/Dropbox/Characters/" + name + ".txt");
+			new File(hoster("lol") + name + ".txt");
 		} else {
 			return null;
 		}
@@ -147,7 +156,7 @@ public class PlayerSave {
 				File1 = true;
 			} else {*/
 			characterfile = new BufferedReader(new FileReader(
-					"C:/Users/Korey/Dropbox/Characters/" + playerName + ".txt"));
+					hoster("lol") + playerName + ".txt"));
 			File1 = true;
 			//}
 		} catch (final FileNotFoundException fileex1) {
@@ -720,7 +729,7 @@ public class PlayerSave {
 						"./Data/betacharacters/" + p.playerName + ".txt"));
 			} else {
 				characterfile = new BufferedWriter(new FileWriter(
-						"C:/Users/Korey/Dropbox/Characters/" + p.playerName + ".txt"));
+						hoster("lol") + p.playerName + ".txt"));
 			}
 			/* ACCOUNT */
 			characterfile.write("[ACCOUNT]", 0, 9);
