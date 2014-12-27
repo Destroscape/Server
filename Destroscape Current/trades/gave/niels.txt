@@ -1,0 +1,40 @@
+
+Year : 2014	Month : 11	Day : 10
+Gave 5000000 Coins To rex
+--------------------------------------------------
+Year : 2014	Month : 11	Day : 10
+Gave 500 Manta ray To rex
+--------------------------------------------------
+Year : 2014	Month : 11	Day : 10
+Gave 50 Super attack (3) To rex
+--------------------------------------------------
+Year : 2014	Month : 11	Day : 10
+Gave 50 Super strength (3) To rex
+--------------------------------------------------
+Year : 2014	Month : 11	Day : 10
+Gave 1000 Fire rune To rex
+--------------------------------------------------
+Year : 2014	Month : 11	Day : 10
+Gave 100 Water rune To rex
+--------------------------------------------------
+Year : 2014	Month : 11	Day : 10
+Gave 1000 Air rune To rex
+--------------------------------------------------
+Year : 2014	Month : 11	Day : 10
+Gave 100 Blood rune To rex
+--------------------------------------------------
+Year : 2014	Month : 11	Day : 10
+Gave 1000 Cosmic rune To rex
+--------------------------------------------------
+Year : 2014	Month : 11	Day : 10
+Gave 1000 Mind rune To rex
+--------------------------------------------------
+Year : 2014	Month : 11	Day : 10
+Gave 100 Death rune To rex
+--------------------------------------------------
+Year : 2014	Month : 11	Day : 10
+Gave 1 Amulet of glory (4) To rex
+--------------------------------------------------
+Year : 2014	Month : 11	Day : 10
+Gave 6000 Lobster To rex
+--------------------------------------------------
